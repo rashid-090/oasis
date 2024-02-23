@@ -5,8 +5,10 @@ import CarSearch from "./searchCar";
 import WhyChooseus from "./choose";
 import RentServices from "./carousals/rentServices";
 import CustomerSay from "./customerSay";
+import Loading from './loading'
 
 export {
+    Loading,
     Header,
     Footer,
     Banner,

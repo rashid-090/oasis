@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 
 // =========Components==========//
-import { Header, Footer } from "./components";
+import { Header, Footer, Loading } from "./components";
 
 // =========Pages==========//
 const Home = lazy(() => import("./pages/home"));
@@ -38,15 +38,15 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: (
-          <Suspense fallback={<p>loading...</p>}>
-            <div className="w-full h-1/2 grid place-items-center"><p className="animate-bounce text-red-600 text-5xl font-bold">page not found</p></div>
+          <Suspense fallback={<Loading/>}>
+            <div className="w-full h-96 grid place-items-center"><p className="animate-bounce text-red-600 text-5xl font-bold">page not found</p></div>
           </Suspense>
         ),
       },
       {
         path: "/",
         element: (
-          <Suspense fallback={<p>loading...</p>}>
+          <Suspense fallback={<Loading/>}>
             <Home />
           </Suspense>
         ),

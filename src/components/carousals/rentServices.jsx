@@ -70,7 +70,7 @@ const RentServices = () => {
       <Slider {...settings}>
         {rentServiceData?.map((d,i)=>(
             <div key={i} className=" relative overflow-hidden">
-                <img className="rounded-3xl object-cover brightness-75" src={d.img} alt={d.title} />
+                <img className="rounded-3xl object-cover brightness-75" src={d.img} alt={d.title} loading="lazy"/>
                 <h1 className="text-2xl md:text-2xl uppercase text-white font-bold absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">{d.title}</h1>
             </div>
         ))}

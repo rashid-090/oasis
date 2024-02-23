@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+  src: url(assets/fonts/Poppins-Light.woff2) format(woff2);
+  font-family: "Poppins-light";
+  font-display: swap;
+}
+
+@font-face{
+  src: url(assets/fonts/Poppins-Regular.woff2) format(woff2);
+  font-family: "Poppins-Regular";
+  font-display: swap;
+}
+
+@font-face{
+  src: url(assets/fonts/Poppins-Medium.woff2) format(woff2);
+  font-family: "Poppins-Medium";
+  font-display: swap;
+}
+
+@font-face{
+  src: url(assets/fonts/Poppins-SemiBold.woff2) format(woff2);
+  font-family: "Poppins-SemiBold";
+  font-display: swap;
+}
+
+@font-face{
+  src: url(assets/fonts/Poppins-Bold.woff2) format(woff2);
+  font-family: "Poppins-Bold";
+  font-display: swap;
+}
+@font-face{
+  src: url(assets/fonts/poppins-Extrabold.woff2) format(woff2);
+  font-family: "Poppins-Extrabold";
+  font-display: swap;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: rgb(79, 148, 1);
+}
+
+::selection {
+  color: #fff;
+  background: rgb(79, 148, 1);
+}
+
+/* 
+::-webkit-scrollbar{
+width: 12px;
+background: rgb(206, 204, 204);
+}
+
+::-webkit-scrollbar-thumb{
+background:#6b6a6a;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#4b4b4b;
+cursor: pointer;
+} */
+
+
+[type="date"] {
+  background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  95% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+::-webkit-datetime-edit-text { color:#9ca3af}
+::-webkit-datetime-edit-month-field { color:#9ca3af }
+::-webkit-datetime-edit-day-field { color: #9ca3af; }
+::-webkit-datetime-edit-year-field { color:#9ca3af; }
+
+body{
+  background-color: #fff;
+  color: black;
+  font-family: "Poppins-Regular", sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+/* rentService carousal */
+.rentserviceCarousal .slick-slide > div{
+  margin: 0 18px;
+}
+
+.rentserviceCarousal .arrow1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .rentserviceCarousal .slick-slide > div{
+    margin: 0 5px;
+  }
+  .rentserviceCarousal .arrow1{
+    top: 40%;
+  }
+  .rentserviceCarousal .arrow-right1{
+    right: -25px !important;
+  }
+  .rentserviceCarousal .arrow-left1{
+    left: -25px !important;
+  }
+}
+
+.rentserviceCarousal .arrow-right1{
+  right: -30px;
+}
+.rentserviceCarousal .arrow-left1{
+  left: -30px;
+}
+
+.rentserviceCarousal .slick-dots li button:before {
+  margin-top: 0px !important;
+  font-size: 10px !important; /* Change this value to adjust the dot size */
+  line-height: 1 !important; /* Adjust the line height if needed */
+}
+.rentserviceCarousal .slick-dots li {
+  margin: 0 0px !important; /* Adjust the horizontal space between dots */
+}

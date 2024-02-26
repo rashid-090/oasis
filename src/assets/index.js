@@ -10,11 +10,17 @@ import automobileser from './images/media/autoservice.webp';
 import user1 from './images/media/user01.webp'
 import user2 from './images/media/user02.webp'
 import carbg from './images/media/pickup.webp'
+import buildimg from './images/media/build.webp'
+import oasisImg from './images/media/oasisabout.webp'
+import splug from './images/media/splug.webp'
+import shakabt from './images/media/shakabt.webp'
 
 
 export{
     logo,
     logowht,
+    splug,
+    shakabt,
     jeep,
     carbg,
     custmser,
@@ -24,5 +30,7 @@ export{
     studtarnsport,
     automobileser,
     user1,
-    user2
+    user2,
+    buildimg,
+    oasisImg
 }

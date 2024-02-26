@@ -17,14 +17,14 @@ export default {
         '4xl': '0px 0px 39px -11px rgba(184,184,184,0.7)',
       },
       backgroundColor:{
-        primary:'rgb(67, 130, 45)',
-        secondary:'rgb(4, 48, 93)',
-        third:'rgb(78, 147, 0)',
+        primary:'rgb(8, 52, 97)',
+        secondary:'rgb(19, 81, 159)',
+        third:'rgb(4, 48, 93)',
       },
       colors:{
-        primary:'rgb(67, 130, 45)',
-        secondary:'rgb(4, 48, 93)',
-        third:'rgb(78, 147, 0)',
+        primary:'rgb(8, 52, 97)',
+        secondary:'rgb(19, 81, 159)',
+        third:'rgb(4, 48, 93)',
       },
       fontFamily: {
         light:['Poppins-light', 'sans-serif'],

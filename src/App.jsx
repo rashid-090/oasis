@@ -15,8 +15,7 @@ import { Header, Footer, Loading } from "./components";
 
 // =========Pages==========//
 const Home = lazy(() => import("./pages/home"));
-const Aboutus = lazy(() => import("./pages/about"));
-const Services = lazy(() => import("./pages/service/index"));
+
 
 const Layout = () => {
   return (
@@ -53,22 +52,7 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
-      {
-        path: "/about-us",
-        element: (
-          <Suspense fallback={<Loading/>}>
-            <Aboutus />
-          </Suspense>
-        ),
-      },
-      // {
-      //   path: "/services",
-      //   element: (
-      //     <Suspense fallback={<Loading/>}>
-      //       <Services />
-      //     </Suspense>
-      //   ),
-      // },
+      
     ],
   },
 ]);

@@ -1,18 +1,13 @@
 import React from 'react';
-import {jeep} from '../../assets'
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
-    <div className='xl:min-h-screen overflow-hidden grid grid-cols-1 md:grid-cols-5 '>
-        <div className='flex flex-col gap-2 lg:gap-4 justify-center p-5  lg:pl-32 pt-32 md:pt-28 lg:pt-40 md:col-span-3 bg-[#FDFDFD]'>
-            <h1 className='text-4xl md:text-2xl lg:text-6xl font-bold w-full md:w-[70%] text-primary'>Experience Luxury on the Move</h1>
-            <p className='text-base lg:text-lg font-medium text-secondary'>Elevate Your Travel Experience with Oasis<br/>
-                Group of Companies.<br/>
-                Rent a Masterpiece, Drive Perfection.</p>
-            <button className='bg-third hover:bg-secondary w-fit text-white px-7 py-2 lg:px-10 lg:py-3 rounded-full text-base lg:text-xl'>Book a car</button>
-        </div>
-        <div className='flex flex-col  relative justify-center p-5 lg:pr-10 pt-10 md:pt-28 lg:pt-40 md:col-span-2 bg-gradient-to-r from-[#119A7B] via-[#045B55] to-[#063142]'>
-            <img className='md:absolute md:-left-20 xl:-left-44 h-52 lg:h-full lg:w-full  object-contain' src={jeep} alt="jeep" loading='lazy'/>
+    <div className='bg-oasisbg w-full bg-cover bg-top aspect-auto lg:aspect-[20/7]'>
+        <div className='w-11/12 2xl:w-10/12 mx-auto text-white flex flex-col gap-y-4 py-14 xl:py-0 justify-center h-full'>
+          <h1 className='text-3xl xl:text-5xl font-bold'>TOP-TIER CONDENSER COIL MANUFACTURER<br className='hidden md:block'/> BASED IN THE UAE.</h1>
+          <p className='text-sm md:text-base xl:text-lg font-medium text-gray-200'>OUR TEAM, DEEPLY PASSIONATE AND TECHNICALLY ADEPT, IS COMMITTED<br className='hidden md:block'/> TO DELIVERING UNPARALLELED HEAT REJECTION SOLUTIONS IN THE I-JAE.</p>
+          <Link className='bg-primary hover:bg-white hover:text-primary duration-150 uppercase text-base font-medium mt-3 px-10 w-fit py-3 rounded-xl'>Learn more</Link>
         </div>
     </div>
   )

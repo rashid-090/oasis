@@ -146,3 +146,40 @@ body{
   margin: 0 0px !important; /* Adjust the horizontal space between dots */
 }
 
+/* customersay */
+.customersay .slick-slide > div{
+  margin: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .customersay .slick-slide > div{
+    margin:10px;
+  }
+}
+.customersay .slick-dots li button:before {
+  margin-top: 0px !important;
+  font-size: 10px !important; /* Change this value to adjust the dot size */
+  line-height: 1 !important; /* Adjust the line height if needed */
+}
+.customersay .slick-dots li {
+  margin: 0 !important; /* Adjust the horizontal space between dots */
+}
+
+/* effect */
+.underline-hover-effect {
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0259b2;
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
+

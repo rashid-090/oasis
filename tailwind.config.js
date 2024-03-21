@@ -16,15 +16,11 @@ export default {
       boxShadow: {
         '4xl': '0px 0px 39px -11px rgba(184,184,184,0.7)',
       },
-      backgroundColor:{
-        primary:'rgb(8, 52, 97)',
-        secondary:'rgb(19, 81, 159)',
-        third:'rgb(4, 48, 93)',
-      },
       colors:{
-        primary:'rgb(8, 52, 97)',
-        secondary:'rgb(19, 81, 159)',
-        third:'rgb(4, 48, 93)',
+        primary:'#0259b2',
+        secondary:'#888888',
+        hovclr:'#2563eb'
+
       },
       fontFamily: {
         light:['Poppins-light', 'sans-serif'],
@@ -34,6 +30,10 @@ export default {
         bold:['Poppins-Bold', 'sans-serif'],
         extrabold:['Poppins-Extrabold', 'sans-serif'],
       },
+      backgroundImage:{
+        'oasisbg': "url('./assets/images/media/oasbg.webp')",
+        'ctabg': "url('./assets/images/media/Layer 2.webp')",
+      }
     },
   },
   plugins: [],

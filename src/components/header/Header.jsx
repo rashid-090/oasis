@@ -4,7 +4,8 @@ import {logo,iconenvp,iconphn} from '../../assets';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
-
+import { FiPhoneCall } from "react-icons/fi";
+import { TfiEmail } from "react-icons/tfi";
 
 
 const Header = () => {
@@ -28,9 +29,9 @@ const Header = () => {
   ];
   return (
    <nav className=''>
-      <div className='flex flex-col md:flex-row gap-y-5 justify-between items-center px-5 md:px-10 py-5 border-b-2 border-primary'>
-        <Link to={'/'}><img className='h-16 w-40 md:h-16 md:w-28  xl:h-28 xl:w-60 object-contain' src={logo} alt="logo" /></Link>
-        <div className='flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
+      <div className='flex  gap-y-5 justify-between items-center px-5 md:px-10 py-5 border-b-2 border-primary'>
+        <Link to={'/'}><img className='h-14 w-32 md:h-16 md:w-28  xl:h-28 xl:w-60 object-contain' src={logo} alt="logo" /></Link>
+        <div className='hidden md:flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
               <img loading='lazy' className=' h-10 w-10 object-contain' src={iconphn} alt="icon" />
               <div>
@@ -45,6 +46,11 @@ const Header = () => {
                 <a href='#' className='group-hover:underline duration-150 text-sm text-secondary hover:text-primary'>sales@oasisaccoils.com</a>
               </div>
           </div>
+        </div>
+        {/* mobile */}
+        <div className='flex gap-5 items-center md:hidden text-white'>
+            <a href='#' className='bg-primary h-12 w-12 grid place-items-center rounded-full'><FiPhoneCall className='text-3xl'/></a>
+            <a href='#' className='bg-primary h-12 w-12 grid place-items-center rounded-full'><TfiEmail className='text-3xl'/></a>
         </div>
       </div>
       {/* menu */}
@@ -71,6 +77,7 @@ const Header = () => {
             </li>
           ))}
           </ul>
+          {/*  */}
         </div>
    </nav>
   )
@@ -81,26 +88,3 @@ export default Header;
 
 
 
-{/* 
-
-<li key={menuItem.path} className={`capitalize ${currentPathname === menuItem.path ? 'font-semibold ' : 'font-normal '}`}>
-              <Link to={menuItem.path}>{menuItem.label}</Link>
-            </li>
-
-
-<button className='block xl:hidden' onClick={toggleMenu}>
-            <CgMenuRight  className='text-primary md:text-white text-3xl'/>
-          </button>
-          
-<div className={`${open ? "scale-100 bg-primary text-white h-screen" : "scale-0"} transform transition-transform duration-200 ease-in absolute  left-0 right-0 bottom-0 top-0`}>
-<button onClick={toggleMenu}>
-  <VscClose  className='text-white text-4xl absolute top-5 right-5'/>
-</button>
-<ul className='flex items-center flex-col gap-y-5 justify-center h-full text-2xl'>
-{menuItems.map((menuItem) => (
-  <li key={menuItem.path} className={`capitalize ${currentPathname === menuItem.path ? 'font-semibold underline' : 'font-normal '}`}>
-    <Link onClick={()=> setOpen(false)} to={menuItem.path}>{menuItem.label}</Link>
-  </li>
-))}
-</ul>
-</div> */}

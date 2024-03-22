@@ -65,7 +65,7 @@ const Header = () => {
          <Link to="/" className='flex items-center gap-3 bg-primary hover:bg-hovclr text-white px-5 py-2  lg:px-10 lg:py-3 rounded-3xl font-semibold'><p>Get a Quote</p><IoIosArrowDroprightCircle className='text-2xl'/></Link>
          <GiHamburgerMenu onClick={toggleMenu} className='block xl:hidden text-3xl text-primary'/>
       </div>
-      <div className={`${open ? "scale-100 bg-white text-primary h-screen" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>
+      <div className={`${open ? "scale-100 bg-white text-primary h-screen overflow-y-scroll" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>
       <Link to={'/'}><img className='h-16 w-32 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>
           <button onClick={toggleMenu}>
             <MdOutlineClose  className='text-primary text-4xl absolute top-5 right-5'/>
@@ -78,7 +78,7 @@ const Header = () => {
                 </li>
               ))}
             </div>
-          <div className='w-full flex flex-col md:flex-row justify-normal md:justify-between bg-primary text-white items-start md:items-center py-3 px-8 gap-y-3 pt-3  h-40 md:h-32'>
+          <div className='w-full flex flex-col md:flex-row justify-center md:justify-between bg-primary text-white items-start md:items-center py-3 px-8 gap-y-3 pt-3  h-32'>
 
                   <a href="tel:+67 31 35 79" target='_blank' className='flex gap-5 items-center'><FiPhoneCall className='text-4xl'/><p className='text-lg font-medium underline'>+67 31 35 79</p></a>
                   <a href="mailto:sales@oasisaccoils.com" target='_blank' className='flex gap-5 items-center'><TfiEmail className='text-4xl'/><p className='text-lg font-medium underline'>sales@oasisaccoils.com</p></a>

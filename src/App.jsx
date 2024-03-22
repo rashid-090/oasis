@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         path: "*",
         element: (
           <Suspense fallback={<Loading/>}>
-            <div className="w-full h-96 grid place-items-center text-center"><p className="animate-bounce text-red-600 text-5xl font-bold">page not found</p></div>
+            <div className="w-full h-96 grid place-items-center text-center"><p className="animate-bounce text-primary text-5xl font-bold">page not found</p></div>
           </Suspense>
         ),
       },

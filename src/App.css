@@ -183,3 +183,44 @@ body{
   width: 100%;
 }
 
+.underline-hover-effect2 {
+  position: relative;
+}
+
+.underline-hover-effect2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect2:hover::before {
+  width: 100%;
+}
+
+
+
+/* swiper */
+/* testimonials */
+/* .swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: rgb(149, 149, 149);
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black;
+}
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 15px;
+} */
+
+/* .swiper-slide-active {
+    margin-top: 20px;
+    transition: margin all .3s ease-out;
+} */
+/* .swiper-slide > div {
+  background-color: aqua;
+} */

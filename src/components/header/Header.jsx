@@ -29,7 +29,7 @@ const Header = () => {
   return (
    <nav className=''>
       <div className='flex flex-col md:flex-row gap-y-5 justify-between items-center px-5 md:px-10 py-5 border-b-2 border-primary'>
-        <Link to={'/'}><img className='h-24 w-52 md:h-16 md:w-28  xl:h-28 xl:w-60 object-contain' src={logo} alt="logo" /></Link>
+        <Link to={'/'}><img className='h-16 w-40 md:h-16 md:w-28  xl:h-28 xl:w-60 object-contain' src={logo} alt="logo" /></Link>
         <div className='flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
               <img loading='lazy' className=' h-10 w-10 object-contain' src={iconphn} alt="icon" />

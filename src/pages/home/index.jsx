@@ -1,7 +1,11 @@
-import React from 'react';
-import { Banner } from '../../components';
+import React, { useState } from 'react';
+import { Banner,ProductSlider,Counterui, ProgressLin} from '../../components';
 import { Link } from 'react-router-dom';
+import {Projectbg} from '../../assets';
+
+
 const HomePage = () => {
+
   return (
     <main>
       <Banner/>
@@ -43,12 +47,46 @@ const HomePage = () => {
       </div>
       {/* cta */}
       <div className='w-full h-full bg-ctabg bg-cover bg-center py-10 2xl:py-24'>
-        <div className='w-11/12 2xl:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-5 text-white'>
-            <h1 className='md:col-span-4 text-5xl font-bold'>HIGH QUALITY COOLING SYSTEMS GUARANTEED</h1>
-            <sapn className=' grid place-items-center'><Link className='bg-primary w-fit h-fit px-20 py-4 rounded-xl '>Contact us</Link></sapn>
+        <div className='w-11/12 2xl:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-y-5 text-white'>
+            <h1 className='xl:col-span-4 text-2xl text-center md:text-left xl:text-5xl font-semibold'>HIGH QUALITY COOLING SYSTEMS GUARANTEED</h1>
+            <sapn className=' grid place-items-center'><Link className='bg-primary hover:bg-white hover:text-primary duration-150 w-fit h-fit px-14 py-4 rounded-xl text-lg uppercase'>Contact us</Link></sapn>
         </div>
       </div>
+      {/* products */}
+      <ProductSlider/>
+      {/* projects */}
+      <div className='w-full bg-[#f3f4ef] text-primary'>
+          <div className='grid grid-cols-1 md:grid-cols-2 h-full overflow-hidden'>
+              <div className='relative flex justify-end items-end'>
+                <img className='absolute object-cover top-0 left-0 right-0 bottom-0 h-full w-full' src={Projectbg} alt="project" />
+                <div className='relative h-40 w-96 flex flex-col justify-center items-center gap-y-1 bg-gradient-to-r from-[#00800072] to-[#00000085]'>
+                  <Counterui/>
+                  <h2 className='text-white text-3xl font-medium'>Annual Projects</h2>
+                </div>
+              </div>
+              {/*  */}
+              <div>
+                <div className='p-5 xl:p-20 flex flex-col gap-y-2 xl:gap-y-4'>
+                  <h3 className='text-lg xl:text-3xl'>Why Choose Us?</h3>
+                  <h2 className='text-xl xl:text-4xl font-bold'>WE PRODUCE AND WORK FOR EXCELLENCE</h2>
+                  <p className='text-sm xl:text-lg font-medium'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravidaa. Risus commodo
+                  viverra maecenas accumsan lacus vel facilisis. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravida. Risus commodo viverra maecenas
+                  accumsan lacus vel facilisis.</p>
+                </div>
+                <div className=' p-5 xl:px-14 xl:py-8 bg-gradient-to-r from-[#196d6d] to-[#0c4884] text-white space-y-2'>
+                    <p className='text-xs xl:text-lg font-medium'>STATISTICS OF GROWTH IN THE PAST 2 YEARS: <span className='font-bold'>80%</span></p>
+                   <ProgressLin/>
+                </div>
+              </div>
+          </div>
+      </div>
     </main>
+
   )
 }
 

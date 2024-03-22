@@ -49,8 +49,8 @@ const Header = () => {
         </div>
         {/* mobile */}
         <div className='flex gap-5 items-center md:hidden text-white'>
-            <a href='tel:+67 31 35 79' target='_blank' className='bg-primary h-12 w-12 grid place-items-center rounded-full'><FiPhoneCall className='text-3xl'/></a>
-            <a href='mailto:sales@oasisaccoils.com' target='_blank' className='bg-primary h-12 w-12 grid place-items-center rounded-full'><TfiEmail className='text-3xl'/></a>
+            <a href='tel:+67 31 35 79' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><FiPhoneCall className='text-2xl'/></a>
+            <a href='mailto:sales@oasisaccoils.com' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><TfiEmail className='text-2xl'/></a>
         </div>
       </div>
       {/* menu */}

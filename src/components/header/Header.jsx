@@ -70,14 +70,22 @@ const Header = () => {
           <button onClick={toggleMenu}>
             <MdOutlineClose  className='text-primary text-4xl absolute top-5 right-5'/>
           </button>
-          <ul className='flex items-center flex-col gap-y-5 justify-center h-full text-2xl'>
-          {menuItems.map((menuItem) => (
-            <li key={menuItem.path} className={`capitalize ${currentPathname === menuItem.path ? 'bg-primary text-white ' : 'bg-white text-secondary '} font-medium px-10 py-0.5 rounded-[4px]`}>
-              <Link onClick={()=> setOpen(false)} to={menuItem.path}>{menuItem.label}</Link>
-            </li>
-          ))}
+          <ul className='flex items-center flex-col gap-y-5 justify-between h-full text-2xl'>
+            <div className='flex items-center h-full justify-center flex-col gap-y-5'>
+              {menuItems.map((menuItem) => (
+                <li key={menuItem.path} className={`capitalize ${currentPathname === menuItem.path ? 'bg-primary text-white ' : 'bg-white text-secondary '} font-medium px-10 py-0.5 rounded-[4px]`}>
+                  <Link onClick={()=> setOpen(false)} to={menuItem.path}>{menuItem.label}</Link>
+                </li>
+              ))}
+            </div>
+          <div className='w-full flex flex-col bg-primary text-white items-start py-3 px-8 gap-y-3 pt-3  h-40'>
+
+                  <a href="tel:+67 31 35 79" target='_blank' className='flex gap-5 items-center'><FiPhoneCall className='text-4xl'/><p className='text-lg font-medium underline'>+67 31 35 79</p></a>
+                  <a href="mailto:sales@oasisaccoils.com" target='_blank' className='flex gap-5 items-center'><TfiEmail className='text-4xl'/><p className='text-lg font-medium underline'>sales@oasisaccoils.com</p></a>
+
+          </div>
           </ul>
-          {/*  */}
+          {/* socail */}
         </div>
    </nav>
   )

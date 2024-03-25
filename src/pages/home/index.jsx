@@ -66,7 +66,7 @@ const HomePage = () => {
               </div>
               {/*  */}
               <div>
-                <div className='p-5 xl:p-20 flex flex-col gap-y-2 xl:gap-y-4'>
+                <div className='p-5 xl:p-14 flex flex-col gap-y-2 xl:gap-y-4'>
                   <h3 className='text-lg xl:text-3xl'>Why Choose Us?</h3>
                   <h2 className='text-xl xl:text-4xl font-bold'>WE PRODUCE AND WORK FOR EXCELLENCE</h2>
                   <p className='text-sm xl:text-lg font-medium'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

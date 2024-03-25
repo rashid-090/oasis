@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='w-full text-white bg-gradient-to-r from-[#104c8b] via-[#135f7c] to-[#116f47]'>
        <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-x-20 xl:grid-cols-4 py-10'>
           <div className='space-y-5'>
-            <img className='w-40 h-16 md:w-60 md:h-28 object-contain' src={logowht} alt="oasis" />
+            <Link to='/'><img className='w-40 h-16 md:w-44 md:h-20 object-contain' src={logowht} alt="oasis" /></Link>
             <p>At Oasis Group, we prioritize
               customer satisfaction, delivering
               efficient, cost-effective services
@@ -42,8 +42,8 @@ const Footer = () => {
           <div>
             <h3 className='text-lg md:text-2xl uppercase font-bold pb-5 xl:pb-10'>QUICK LINKS</h3>
             <ul className='text-base 2xl:text-xl font-light uppercase space-y-3'>
-              <li className='underline-hover-effect2 w-fit'><Link to='/'>about us</Link></li>
-              <li className='underline-hover-effect2 w-fit'><Link to='/'>our services</Link></li>
+              <li className='underline-hover-effect2 w-fit'><Link to='/about-us'>about us</Link></li>
+              <li className='underline-hover-effect2 w-fit'><Link to='/services'>our services</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/'>careers</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/'>get in touch</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/'>privacy policy</Link></li>

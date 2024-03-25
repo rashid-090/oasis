@@ -9,6 +9,15 @@ import Prod3 from './images/media/p3.webp';
 
 import Projectbg from './images/media/project.webp';
 
+import Abtp from './images/media/oasisabt.png';
+import Abtp1 from './images/media/quality.svg';
+import Abtp2 from './images/media/management.svg';
+import Abtp3 from './images/media/customer-service.svg';
+import Abtp4 from './images/media/shield.svg';
+import Missionp from './images/media/mission.webp';
+import Visionp from './images/media/vison.webp';
+import Commitep from './images/media/commitment.webp';
+
 
 export{
     logo,
@@ -16,5 +25,6 @@ export{
     iconenvp,
     iconphn,
     Prod1,Prod2,Prod3,
-    Projectbg
+    Projectbg,
+    Abtp,Abtp1,Abtp2,Abtp3,Abtp4,Missionp,Visionp,Commitep
 }

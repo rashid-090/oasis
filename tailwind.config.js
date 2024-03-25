@@ -32,7 +32,8 @@ export default {
       },
       backgroundImage:{
         'oasisbg': "url('./assets/images/media/oasbg.webp')",
-        'ctabg': "url('./assets/images/media/Layer 2.webp')",
+        'ctabg': "url('./assets/images/media/ctabg.webp')",
+        'whychosbg': "url('./assets/images/media/whychbg.webp')",
       }
     },
   },

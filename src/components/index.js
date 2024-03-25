@@ -5,6 +5,7 @@ import Loading from './loading';
 import ProductSlider from "./carousals/Product";
 import Counterui from './ui/count'
 import ProgressLin from './ui/progress'
+import PreLoader from './ui/Preloader'
 
 export {
     Loading,
@@ -13,5 +14,6 @@ export {
     Banner,
     ProductSlider,
     Counterui,
-    ProgressLin
+    ProgressLin,
+    PreLoader
 }

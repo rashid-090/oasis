@@ -62,16 +62,7 @@ const AboutUs = () => {
                 </div>
                 <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp2} alt="" />
-                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>25+ YEARS OF EXPERIENCE</h4>
-                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.</p>
-                </div>
-                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
-                    <img className='h-28 w-28 object-contain' src={Abtp3} alt="" />
-                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>25+ YEARS OF EXPERIENCE</h4>
+                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>PROFESSIONAL TEAM</h4>
                     <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Quis ipsum suspendisse
@@ -80,7 +71,16 @@ const AboutUs = () => {
                 </div>
                 <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp4} alt="" />
-                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>25+ YEARS OF EXPERIENCE</h4>
+                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>SAFETY IS OUR PRIORITY</h4>
+                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Quis ipsum suspendisse
+                    ultrices gravida. Risus commodo viverra maecenas
+                    accumsan lacus vel facilisis.</p>
+                </div>
+                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
+                    <img className='h-28 w-28 object-contain' src={Abtp3} alt="" />
+                    <h4 className='text-primary text-lg font-semibold uppercase mt-3'>100% CUSTOMER SATISFACTION</h4>
                     <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Quis ipsum suspendisse

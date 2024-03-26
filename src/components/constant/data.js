@@ -1,7 +1,9 @@
 import {
     Prod1,
     Prod2,
-    Prod3
+    Prod3,
+    Prod4,
+    Prod5
 } from '../../assets'
 export const ProductsData = [
     {
@@ -32,30 +34,22 @@ export const ProductsData = [
         img:Prod3
     },
     {
-        title:`CONDENSER COIL MANUFACTURER`,
+        title:`RADIATOR CORE SUPPLIERS`,
         descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod1
+        img:Prod4
     },
     {
-        title:`INDUSTRIAL HEAT EXCHANGER MANUFACTURER`,
+        title:`BRAKE LININGS`,
         descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod2
+        img:Prod5
     },
-    {
-        title:`INDUSTRIAL CHILLERS`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
-        img:Prod3
-    },
+    
 ]

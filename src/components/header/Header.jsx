@@ -62,7 +62,7 @@ const Header = () => {
             </li>
           ))}
          </ul>
-         <Link to="/" className='flex items-center gap-3 bg-primary hover:bg-hovclr text-white px-5 py-2  lg:px-10 lg:py-3 rounded-3xl font-semibold'><p>Get a Quote</p><IoIosArrowDroprightCircle className='text-2xl'/></Link>
+         <Link to="/contact-us" className='flex items-center gap-3 bg-primary hover:bg-hovclr text-white px-5 py-2  lg:px-10 lg:py-3 rounded-3xl font-semibold'><p>Get a Quote</p><IoIosArrowDroprightCircle className='text-2xl'/></Link>
          <GiHamburgerMenu onClick={toggleMenu} className='block xl:hidden text-3xl text-primary'/>
       </div>
       <div className={`${open ? "scale-100 bg-white text-primary h-screen overflow-y-scroll" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>

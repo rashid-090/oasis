@@ -224,3 +224,14 @@ body{
 /* .swiper-slide > div {
   background-color: aqua;
 } */
+
+/* Form */
+.osasis-form input,textarea,select{
+  width: 100%;
+  outline: none;
+  border:2px solid #0259b2;
+  text-transform: capitalize;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+

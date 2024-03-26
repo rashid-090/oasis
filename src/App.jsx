@@ -19,6 +19,7 @@ const Home = lazy(() => import("./pages/home"));
 const About = lazy(() => import("./pages/about"));
 const Service = lazy(() => import("./pages/services"));
 const ServiceDetails = lazy(() => import("./pages/services/service-details"));
+const Contact = lazy(() => import("./pages/contact"));
 
 
 const Layout = () => {
@@ -77,6 +78,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PreLoader/>}>
             <ServiceDetails />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/contact-us",
+        element: (
+          <Suspense fallback={<PreLoader/>}>
+            <Contact />
           </Suspense>
         ),
       },

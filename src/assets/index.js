@@ -20,8 +20,12 @@ import Missionp from './images/media/mission.webp';
 import Visionp from './images/media/vison.webp';
 import Commitep from './images/media/commitment.webp';
 
+import Contactbg from './images/media/contactbg.webp';
+import Contactman from './images/media/contactman.webp';
+
 
 export{
+    Contactbg,Contactman,
     logo,
     logowht,
     iconenvp,

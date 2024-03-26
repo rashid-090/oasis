@@ -15,7 +15,7 @@ const AboutUs = () => {
         {/*  */}
         <div className='w-11/12  mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-5 2xl:gap-x-20 py-10 xl:py-20'>
                 <div className='overflow-hidden'>
-                    <img className=' xl:h-96 h-60 md:h-full object-cover w-full' src={Abtp} alt="oasis" />
+                    <img className=' xl:h-96 h-60 md:h-full object-cover w-full' loading='lazy' src={Abtp} alt="oasis" />
                 </div>
                 <div className='flex flex-col justify-center gap-y-5'>
                     <h2 className='text-2xl 2xl:text-4xl font-bold text-primary'>A COMPANY REVOLUTIONIZING HEAT TRANSFER PARADIGMS.</h2>

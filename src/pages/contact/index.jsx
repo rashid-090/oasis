@@ -14,8 +14,8 @@ const ContactUs = () => {
                 </div>
         </div>
         {/* form */}
-        <div className='w-11/12 md:w-10/12 lg:w-11/12 2xl:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 2xl:gap-x-20 bg-[#f2f2f2] my-10 xl:my-20'>
-            <div className='lg:col-span-3 p-5 xl:p-10'>
+        <div className='w-11/12 md:w-10/12 lg:w-11/12 2xl:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-6 gap-10 2xl:gap-x-20 relative bg-[#f2f2f2] my-10 xl:my-20'>
+            <div className='lg:col-span-4 p-5 xl:p-10'>
                 <h2 className='text-2xl md:text-4xl 2xl:text-5xl font-semibold text-primary'>CONTACT US TODAY!</h2>
                 <h3 className='text-xl md:text-3xl font-normal mb-8'>We are here to help.</h3>
                 <form className='flex relative flex-col gap-4 osasis-form text-base xl:text-lg font-normal placeholder:text-gray-500'>
@@ -37,9 +37,9 @@ const ContactUs = () => {
                     <button className='bg-primary w-fit h-12 text-white text-lg uppercase px-10 rounded-xl hover:bg-blue-600 duration-150' type='submit'>submit form</button>
                 </form>
             </div>
-            <div className='hidden lg:block lg:col-span-2 relative overflow-hidden'>
+            <div className='hidden lg:block lg:col-span-2'>
                 <img className='h-full w-full object-cover -z-10' src={Contactbg} alt="image" loading='lazy'/>
-                <img className='absolute bottom-0 right-0 h-[550px] 2xl:h-[700px]' src={Contactman} alt="man" loading='lazy'/>
+                <img className='absolute bottom-0 right-0 h-[600px] lg:h-[550px] xl:h-[750px] 3xl:h-[900px]' src={Contactman} alt="man" loading='lazy'/>
             </div>  
         </div>
     </main>

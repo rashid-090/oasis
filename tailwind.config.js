@@ -11,7 +11,9 @@ export default {
       'md': '768px',
       'lg': '1024px',
       'xl': '1200px',
-      '2xl' : '1500px'},
+      '2xl' : '1500px',
+      '3xl' : '2000px',
+    },
     extend: {
       boxShadow: {
         '4xl': '0px 0px 39px -11px rgba(184,184,184,0.7)',

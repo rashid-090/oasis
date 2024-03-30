@@ -19,7 +19,7 @@ const ServiceDetails = () => {
   }
   return (
     <main>
-        <div className='w-11/12 xl:w-10/12 mx-auto flex flex-col lg:flex-row gap-8 py-10 xl:py-16'>
+        <div className='w-11/12 xl:w-10/12 mx-auto flex flex-col-reverse lg:flex-row gap-8 py-10 xl:py-16'>
             {/* navigation */}
             <div className='lg:basis-1/3'>
               <Sidebar/>

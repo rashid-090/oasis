@@ -49,7 +49,7 @@ const ProductSlider = () => {
         }}
         onInit={() => setInit(true)}
         modules={[Autoplay, Navigation]}
-        className="mySwiper z-10 w-[90%]"
+        className="mySwiper z-10 w-[85%] md:w-[90%]"
       >
         {/* swiper content */}
       
@@ -69,12 +69,12 @@ const ProductSlider = () => {
         {/* swiper content */}
       </Swiper>
       {/* Navigations */}
-      <div className="hidden w-full xl:flex justify-between text-primary hover:text-blue-600 duration-150 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-20">
+      <div className="w-full flex justify-between text-primary hover:text-blue-600 duration-150 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-20">
         <button className="absolute left-0" ref={prevRef}>
-          <IoIosArrowDropleftCircle className="text-5xl" />
+          <IoIosArrowDropleftCircle className="text-5xl " />
         </button>
         <button className="absolute right-0" ref={nextRef}>
-          <IoIosArrowDroprightCircle className="text-5xl" />
+          <IoIosArrowDroprightCircle className="text-5xl " />
         </button>
       </div>
     </div>

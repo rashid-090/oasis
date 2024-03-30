@@ -12,7 +12,7 @@ const HomePage = () => {
       {/*  */}
       <div className='bg-[#039878] text-white py-5 xl:py-7'>
           <div className='w-11/12 2xl:w-10/12 mx-auto'>
-            <p className='text-sm text-center md:text-left font-medium xl:text-xl xl:font-semibold'>CONTACT US TODAY TO EXPERIENCE OUR COMMITMENT TO<br className='hidden md:block'/> EXCELLENCE AND TAILORED SOLUTIONS FIRSTHAND.</p>
+            <p className='text-sm text-center md:text-left  xl:text-xl font-semibold'>CONTACT US TODAY TO EXPERIENCE OUR COMMITMENT TO<br className='hidden md:block'/> EXCELLENCE AND TAILORED SOLUTIONS FIRSTHAND.</p>
           </div>
       </div>
       {/* about */}

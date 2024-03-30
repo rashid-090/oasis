@@ -16,7 +16,7 @@ const sidebar = () => {
                     <Link className={`w-full px-7 py-3  border-primary bg-gray-200 text-primary`}>BRAKE LININGS</Link>
 
         </div>
-        <div className='hidden  bg-primary text-white px-7 md:px-4 md:py-4 xl:p-10 py-10  md:flex flex-col gap-5'>
+        <div className='  bg-primary text-white px-7 md:px-4 md:py-4 xl:p-10 py-10 flex flex-col gap-5'>
             <h3 className='text-2xl xl:text-3xl font-semibold'>WE ARE HERE TO HELP</h3>
             <p className='text-sm '>Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et

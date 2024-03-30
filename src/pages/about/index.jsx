@@ -30,17 +30,20 @@ const AboutUs = () => {
         </div>
         {/*  */}
         <div className='w-11/12  mx-auto grid grid-cols-1 md:grid-cols-3 gap-7 pb-10 xl:pb-20'>
-            <div className='relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
-                <img className='-z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Missionp} alt="" />
-                <h1 className='z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR MISSION</h1>
+            <div className='group cursor-pointer relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
+                <img className='group-hover:blur-sm group-hover:scale-105 duration-200 transition-all ease-in -z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Missionp} alt="" />
+                <h1 className='opacity-100 group-hover:opacity-0 transition-opacity duration-700 ease-out  z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR MISSION</h1>
+                <p className='text-base md:text-xs lg:text-base xl:text-xl font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500  ease-out text-white absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-full p-5 md:p-3 xl:p-10 text-center'>To provide innovative and efficient cooling and heating solutions through our Oasis Cool and Heat Coils, enhancing comfort and productivity while minimizing environmental impact.</p>
             </div>
-            <div className='relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
-                <img className='-z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Visionp} alt="" />
-                <h1 className='z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR VISION</h1>
+            <div className='group cursor-pointer relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
+                <img className='group-hover:blur-sm group-hover:scale-105 duration-200 transition-all ease-in -z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Visionp} alt="" />
+                <h1 className=' opacity-100 group-hover:opacity-0 transition-opacity duration-700 ease-out z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR VISION</h1>
+                <p className='text-base md:text-xs lg:text-base xl:text-xl font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500  ease-out text-white absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-full p-5 md:p-3 xl:p-10 text-center'>Our vision is to be a leading provider of cooling and heating technology, revolutionizing the industry with sustainable, reliable, and cost-effective solutions. We aim to create environments where people thrive, businesses flourish, and communities prosper.</p>
             </div>
-            <div className='relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
-                <img className='-z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Commitep} alt="" />
-                <h1 className='z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR COMMITMENT</h1>
+            <div className='group cursor-pointer relative overflow-hidden rounded-[2rem] 2xl:rounded-[3rem] shadow-2xl shadow-gray-900'>
+                <img className='group-hover:blur-sm group-hover:scale-105 duration-200 transition-all ease-in -z-10 h-80 md:h-52 lg:h-64 2xl:h-96 w-full object-cover' src={Commitep} alt="" />
+                <h1 className=' opacity-100 group-hover:opacity-0 transition-opacity duration-700 ease-out z-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-bold text-3xl md:text-xl xl:text-4xl w-full text-center'>OUR COMMITMENT</h1>
+                <p className='text-base md:text-xs lg:text-base xl:text-xl font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500  ease-out text-white absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-full p-5 md:p-3 xl:p-10 text-center'>Our commitment is to provide high-quality, sustainable cooling and heating solutions, prioritize customer satisfaction, drive innovation, uphold integrity, empower our employees, and contribute to social responsibility.</p>
             </div>
            
         </div>

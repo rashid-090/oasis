@@ -2,7 +2,8 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,json}",
+    
   ],
   theme: {
     screens: {
@@ -36,8 +37,12 @@ export default {
         'oasisbg': "url('./assets/images/media/oasbg.webp')",
         'ctabg': "url('./assets/images/media/ctabg.webp')",
         'whychosbg': "url('./assets/images/media/whychbg.webp')",
+        'carrerbg': "url('./assets/images/media/careers/carrerbg.webp')",
       }
     },
   },
-  plugins: [],
+    plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 }

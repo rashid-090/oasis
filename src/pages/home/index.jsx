@@ -49,7 +49,7 @@ const HomePage = () => {
       <div className='w-full h-full bg-ctabg bg-cover bg-center py-10 2xl:py-24'>
         <div className='w-11/12 2xl:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-y-5 text-white'>
             <h1 className='xl:col-span-4 text-2xl text-center md:text-left xl:text-5xl font-semibold'>HIGH QUALITY COOLING SYSTEMS GUARANTEED</h1>
-            <sapn className=' grid place-items-center'><Link className='bg-primary hover:bg-white hover:text-primary duration-150 w-fit h-fit px-14 py-4 rounded-xl text-lg uppercase'>Contact us</Link></sapn>
+            <sapn className=' grid place-items-center'><Link to={'/contact-us'} className='bg-primary hover:bg-white hover:text-primary duration-150 w-fit h-fit px-14 py-4 rounded-xl text-lg uppercase'>Contact us</Link></sapn>
         </div>
       </div>
       {/* products */}

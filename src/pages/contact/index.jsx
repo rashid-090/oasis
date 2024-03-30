@@ -21,18 +21,18 @@ const ContactUs = () => {
                 <form className='flex relative flex-col gap-4 osasis-form text-base xl:text-lg font-normal placeholder:text-gray-500'>
                     <input type="text" placeholder='Name' required/>
                     <input type="email" placeholder='email' required/>
-                    <input type="number" placeholder='phone' inputMode='numeric'/>
+                    <input className='[&::-webkit-inner-spin-button]:appearance-none' type="number" placeholder='phone' inputMode='numeric'/>
                     <input type="text" placeholder='address'/>
                     <select className='appearance-none' required>
                         <option value="">select your inquiry</option>
                         <option value="option 1">option1</option>
-                        <option value="option 2">option1</option>
-                        <option value="option 3">option1</option>
+                        <option value="option 2">option2</option>
+                        <option value="option 3">option3</option>
                     </select>
                     <textarea rows="6" placeholder='message'></textarea>
                     <div className='flex items-center md:gap-3'>
-                        <Checkbox sx={{color:'#0259b2','&.Mui-checked': {color: '#116f49',}}} required/>
-                        <p className='text-sm md:text-base mt-1'>I hereby accept all terms & conditions.</p>
+                        <Checkbox  sx={{color:'#0259b2','&.Mui-checked': {color: '#116f49',}}} required/>
+                        <p className='text-sm md:text-base mt-1'>I here by accept all terms & conditions.</p>
                     </div>
                     <button className='bg-primary w-fit h-12 text-white text-lg uppercase px-10 rounded-xl hover:bg-blue-600 duration-150' type='submit'>submit form</button>
                 </form>

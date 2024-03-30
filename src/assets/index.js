@@ -23,6 +23,12 @@ import Commitep from './images/media/commitment.webp';
 import Contactbg from './images/media/contactbg.webp';
 import Contactman from './images/media/contactman.webp';
 
+import Careerbg2 from './images/media/careers/carrerbg2.webp';
+import Careerp1 from './images/media/careers/careerp1.svg';
+import Careerp2 from './images/media/careers/careerp2.svg';
+import Careerp3 from './images/media/careers/careerp3.svg';
+import Careerp4 from './images/media/careers/careerp4.svg';
+
 
 export{
     Contactbg,Contactman,
@@ -32,5 +38,6 @@ export{
     iconphn,
     Prod1,Prod2,Prod3,Prod4,Prod5,
     Projectbg,
-    Abtp,Abtp1,Abtp2,Abtp3,Abtp4,Missionp,Visionp,Commitep
+    Abtp,Abtp1,Abtp2,Abtp3,Abtp4,Missionp,Visionp,Commitep,
+    Careerbg2,Careerp1,Careerp2,Careerp3,Careerp4
 }

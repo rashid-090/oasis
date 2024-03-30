@@ -25,7 +25,7 @@ const Header = () => {
     { path: '/services', label: 'our services' },
     { path: '/careers', label: 'careers' },
     { path: '/contact-us', label: 'contact us' },
-    { path: '/blog', label: 'blog' },
+    // { path: '/blog', label: 'blog' },
   ];
   return (
    <nav className=''>

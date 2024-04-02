@@ -34,7 +34,7 @@ const Footer = () => {
                     <p>Dubai, Sharjah</p>
                   </div>
                   <div>
-                    <p className='font-semibold'>Warehouse</p>
+                    <p className='font-semibold'>Factory</p>
                     <p>Ajman</p>
                   </div>
               </div>

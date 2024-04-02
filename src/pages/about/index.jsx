@@ -19,13 +19,7 @@ const AboutUs = () => {
                 </div>
                 <div className='flex flex-col justify-center gap-y-5'>
                     <h2 className='text-2xl 2xl:text-4xl font-bold text-primary'>A COMPANY REVOLUTIONIZING HEAT TRANSFER PARADIGMS.</h2>
-                    <p className='text-base 2xl:text-lg text-secondary'>Oasis Cool & Heat Coils LLC, a subsidiary of Al Tabreed
-                        established in 2017, aspires to lead the HVAC and cooling
-                        sector through innovation and collaboration. We specialize
-                        in manufacturing condenser coils and servicing heat
-                        exchangers to enhance building safety, energy efficiency,
-                        and cost savings. Our top-notch heavy commercial
-                        radiators set a benchmark in the UAE market.</p>
+                    <p className='text-base 2xl:text-lg text-secondary'>Discover excellence in condenser coil manufacturing with Oasis Cool & Heat Coils LLC, a leading provider based in the UAE. Specializing in crafting top-tier condenser coils and servicing heat exchangers, we are dedicated to elevating building safety, energy efficiency, and cost-effectiveness. Our premium heavy commercial radiators are unmatched, setting the standard in the UAE market.</p>
                 </div>
         </div>
         {/*  */}

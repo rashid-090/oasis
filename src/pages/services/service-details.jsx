@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { Prod2 } from '../../assets';
 import Sidebar from './sidebar';
-import {ProductsData} from '../../components/constant/data'
+import {ServiceData} from '../../components/constant/data'
 
 const ServiceDetails = () => {
   const { title } = useParams();
@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     // console.log('Decoded Title:', decodedTitle);
   }, [decodedTitle]);
 
-  const servicedata = ProductsData.find((s) => s.url === title);
+  const servicedata = ServiceData.find((s) => s.url === title);
   // console.log(visadata.methods.slice(0,1));
   if (!servicedata) {
     return <div>Service not found</div>;

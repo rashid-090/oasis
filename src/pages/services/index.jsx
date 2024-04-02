@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
-import {ProductsData} from '../../components/constant/data'
+import {ServiceData} from '../../components/constant/data'
 
 const Services = () => {
   const navigate = useNavigate('');
@@ -16,7 +16,7 @@ const Services = () => {
         </div>
         {/* services */}
         <div className='w-11/12 sm:w-10/12 md:w-11/12 lg:w-9/12 xl:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-8 xl:gap-y-14  py-10 xl:py-20'>
-        {ProductsData?.map((item,i)=>(
+        {ServiceData?.map((item,i)=>(
                     <div key={i} className={`text-left bg-[#ededed]   rounded-[2rem] overflow-hidden border-r-[9px] border-b-[9px] border-primary`}>
                         <img className="h-52 xl:h-60 w-full object-cover" loading='lazy' src={item.img} alt={item.title} />
                         <div className="p-5 flex flex-col gap-y-4">

@@ -9,6 +9,22 @@ import Prod3 from './images/media/pp3.webp';
 import Prod4 from './images/media/pp4.webp';
 import Prod5 from './images/media/pp5.webp';
 
+import Service1 from './images/media/pp1.webp';
+import Service2 from './images/media/pp2.webp';
+import Service3 from './images/media/pp3.webp';
+import Service4 from './images/media/pp4.webp';
+import Service5 from './images/media/pp5.webp';
+
+import Product1 from './images/media/products/pp1.webp';
+import Product2 from './images/media/products/pp2.webp';
+import Product3 from './images/media/products/pp3.webp';
+import Product4 from './images/media/products/air conditioner.webp';
+import Product5 from './images/media/products/air handling.webp';
+import Product6 from './images/media/products/fan coil.webp';
+import Product7 from './images/media/products/gylcolheat.webp';
+import Product8 from './images/media/products/heat pumps.webp';
+import Product9 from './images/media/products/oil-coolers.webp';
+
 import Projectbg from './images/media/project.webp';
 
 import Abtp from './images/media/oasisabt.png';
@@ -31,6 +47,8 @@ import Careerp4 from './images/media/careers/careerp4.svg';
 
 
 export{
+    Service1,Service2,Service3,Service4,Service5,
+    Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,
     Contactbg,Contactman,
     logo,
     logowht,

@@ -19,7 +19,7 @@ const AboutUs = () => {
                 </div>
                 <div className='flex flex-col justify-center gap-y-5'>
                     <h2 className='text-2xl 2xl:text-4xl font-bold text-primary'>A COMPANY REVOLUTIONIZING HEAT TRANSFER PARADIGMS.</h2>
-                    <p className='text-base 2xl:text-lg text-secondary'>Discover excellence in condenser coil manufacturing with Oasis Cool & Heat Coils LLC, a leading provider based in the UAE. Specializing in crafting top-tier condenser coils and servicing heat exchangers, we are dedicated to elevating building safety, energy efficiency, and cost-effectiveness. Our premium heavy commercial radiators are unmatched, setting the standard in the UAE market.</p>
+                    <p className='text-base 2xl:text-lg text-secondary'>We at Oasis Group go above and beyond to ensure the satisfaction of our customers, and we always strive to provide exceptional customer service. Our fundamental principle is to deliver efficient and cost- effective services to our clients while maintaining the highest quality standards. Our team is dedicated to ensuring that we meet our clients' needs and exceed their expectations. Whether it's rentals or maintenance services, we ensure that our clients receive the best value for their money.</p>
                 </div>
         </div>
         {/*  */}

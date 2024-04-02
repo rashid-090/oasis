@@ -1,4 +1,6 @@
 import {
+  Service1,Service2,Service3,Service4,Service5,
+  Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,
     Prod1,
     Prod2,
     Prod3,
@@ -16,7 +18,7 @@ export const ProductsData = [
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod1,
+        img:Product1,
     },
     {
         id:2,
@@ -27,7 +29,7 @@ export const ProductsData = [
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod2
+        img:Product2
     },
     {
         id:3,
@@ -38,18 +40,73 @@ export const ProductsData = [
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod3
+        img:Product3
     },
     {
         id:4,
-        title:`RADIATOR CORE SUPPLIERS`,
+        title:`Air conditioning`,
         url:`radiator-core-suppliers`,
         descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Quis ipsum suspendisse
         ultrices gravida. Risus commodo viverra maecenas
         accumsan lacus vel facilisis.`,
-        img:Prod4
+        img:Product4
+    },
+    {
+        id:5,
+        title:`Air handling units`,
+        url:`radiator-core-suppliers`,
+        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis ipsum suspendisse
+        ultrices gravida. Risus commodo viverra maecenas
+        accumsan lacus vel facilisis.`,
+        img:Product5
+    },
+    {
+        id:6,
+        title:`Fan coils`,
+        url:`radiator-core-suppliers`,
+        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis ipsum suspendisse
+        ultrices gravida. Risus commodo viverra maecenas
+        accumsan lacus vel facilisis.`,
+        img:Product6
+    },
+    {
+        id:7,
+        title:`Glycol heat recuperation circuits`,
+        url:`radiator-core-suppliers`,
+        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis ipsum suspendisse
+        ultrices gravida. Risus commodo viverra maecenas
+        accumsan lacus vel facilisis.`,
+        img:Product7
+    },
+    {
+        id:8,
+        title:`Heat pumps`,
+        url:`radiator-core-suppliers`,
+        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis ipsum suspendisse
+        ultrices gravida. Risus commodo viverra maecenas
+        accumsan lacus vel facilisis.`,
+        img:Product8
+    },
+    {
+        id:9,
+        title:`Oil coolers for hydraulic systems`,
+        url:`radiator-core-suppliers`,
+        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Quis ipsum suspendisse
+        ultrices gravida. Risus commodo viverra maecenas
+        accumsan lacus vel facilisis.`,
+        img:Product9
     },
     
 ]
@@ -65,7 +122,7 @@ export const ServiceData = [
       dolore magna aliqua. Quis ipsum suspendisse
       ultrices gravida. Risus commodo viverra maecenas
       accumsan lacus vel facilisis.`,
-      img:Prod1,
+      img:Service1,
       contents :
       `<h2>Condenser Coil</h2>
       <p>At Al Tabreed, we are your preferred condenser coils manufacturer. Whether you
@@ -187,7 +244,7 @@ export const ServiceData = [
       dolore magna aliqua. Quis ipsum suspendisse
       ultrices gravida. Risus commodo viverra maecenas
       accumsan lacus vel facilisis.`,
-      img:Prod2
+      img:Service2
   },
   {
       id:3,
@@ -198,7 +255,7 @@ export const ServiceData = [
       dolore magna aliqua. Quis ipsum suspendisse
       ultrices gravida. Risus commodo viverra maecenas
       accumsan lacus vel facilisis.`,
-      img:Prod3
+      img:Service3
   },
   {
       id:4,
@@ -209,7 +266,7 @@ export const ServiceData = [
       dolore magna aliqua. Quis ipsum suspendisse
       ultrices gravida. Risus commodo viverra maecenas
       accumsan lacus vel facilisis.`,
-      img:Prod4
+      img:Service4
   },
   {
       id:5,
@@ -220,7 +277,7 @@ export const ServiceData = [
       dolore magna aliqua. Quis ipsum suspendisse
       ultrices gravida. Risus commodo viverra maecenas
       accumsan lacus vel facilisis.`,
-      img:Prod5
+      img:Service5
   },
   
 ]

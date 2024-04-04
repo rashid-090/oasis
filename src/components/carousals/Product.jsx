@@ -53,7 +53,7 @@ const ProductSlider = () => {
       >
         {/* swiper content */}
       
-            {ProductsData?.reverse().map((item,i)=>(
+            {ProductsData?.map((item,i)=>(
                 <SwiperSlide key={i}>
                     <div className="text-left bg-[#eaebe6] rounded-[2rem] overflow-hidden border-r-8 border-b-8 border-primary">
                         <img className="h-52 w-full object-cover" loading="lazy" src={item.img} alt={item.title} />

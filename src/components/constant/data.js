@@ -1,6 +1,6 @@
 import {
   Service1,Service2,Service3,Service4,Service5,
-  Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,
+  Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,Product10,Product11,
     Prod1,
     Prod2,
     Prod3,
@@ -35,78 +35,69 @@ export const ProductsData = [
         id:3,
         title:`INDUSTRIAL CHILLERS`,
         url:`industrial-chillers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+        descption:`Chillers are powerful refrigeration systems used to cool water or other fluids for industrial processes, HVAC systems, and commercial applications. These units efficiently remove heat from liquid streams, providing precise temperature control and reliable cooling solutions for a wide range of industrial and commercial processes.`,
         img:Product3
     },
     {
         id:4,
         title:`Air conditioning`,
         url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+        descption:`Air conditioning systems are essential for maintaining comfortable indoor temperatures and humidity levels in various settings, including homes, offices, and commercial spaces. These systems remove heat from indoor air and circulate cool air, ensuring a pleasant and productive environment for occupants.`,
         img:Product4
     },
     {
         id:5,
         title:`Air handling units`,
         url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+        descption:`Air handling units are versatile HVAC components responsible for regulating air quality, temperature, and humidity within indoor spaces. These units circulate and condition air, ensuring comfort and maintaining optimal indoor air quality in residential, commercial, and industrial settings.`,
         img:Product5
     },
     {
         id:6,
         title:`Fan coils`,
         url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+        descption:`Fan coils are compact HVAC units designed to efficiently heat and cool indoor spaces. Consisting of a coil, fan, and optional heating elements, they circulate air over the coil to adjust its temperature according to desired settings. Installed discreetly within walls, ceilings, or floors, they offer flexibility in design and space utilization.`,
         img:Product6
     },
     {
         id:7,
         title:`Glycol heat recuperation circuits`,
         url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+        descption:`Glycol heat recuperation circuits are innovative systems designed to recover waste heat and improve energy efficiency in various industrial processes. By capturing and reusing thermal energy, these circuits reduce energy consumption and greenhouse gas emissions, contributing to sustainable and environmentally friendly operations.`,
         img:Product7
     },
     {
-        id:8,
-        title:`Heat pumps`,
-        url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
-        img:Product8
-    },
+      id:8,
+      title:`Oil coolers for hydraulic systems`,
+      url:`radiator-core-suppliers`,
+      descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Quis ipsum suspendisse
+      ultrices gravida. Risus commodo viverra maecenas
+      accumsan lacus vel facilisis.`,
+      img:Product9
+  },
     {
         id:9,
-        title:`Oil coolers for hydraulic systems`,
+        title:`Heat pumps`,
         url:`radiator-core-suppliers`,
-        descption:`Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
-        img:Product9
+        descption:`Heat pumps are highly efficient HVAC systems that provide both heating and cooling by transferring heat between indoor and outdoor environments. These systems offer energy-efficient climate control solutions for residential, commercial, and industrial buildings, helping to reduce energy costs and minimize environmental impact.`,
+        img:Product8
+    },
+    
+    {
+        id:10,
+        title:`Water and liquid cooler for industry`,
+        url:`radiator-core-suppliers`,
+        descption:`Water and liquid coolers are vital for industries and power plants, facilitating the efficient cooling of various industrial processes and equipment. These coolers remove excess heat from water and other liquids used in industrial applications, ensuring smooth operation and preventing equipment damage due to overheating.`,
+        img:Product10
+    },
+    {
+        id:11,
+        title:`Steam coils`,
+        url:`radiator-core-suppliers`,
+        descption:`Steam coils are integral components of heating systems, utilizing steam to transfer heat to air or other fluids in a controlled manner. These coils are commonly used in HVAC systems, industrial processes, and commercial applications to provide efficient and reliable heating solutions.`,
+        img:Product11
     },
     
 ]

@@ -24,6 +24,8 @@ import Product6 from './images/media/products/fan coil.webp';
 import Product7 from './images/media/products/gylcolheat.webp';
 import Product8 from './images/media/products/heat pumps.webp';
 import Product9 from './images/media/products/oil-coolers.webp';
+import Product10 from './images/media/products/Water and liquid cooler.webp';
+import Product11 from './images/media/products/steam coil.webp';
 
 import Projectbg from './images/media/project.webp';
 
@@ -48,7 +50,7 @@ import Careerp4 from './images/media/careers/careerp4.svg';
 
 export{
     Service1,Service2,Service3,Service4,Service5,
-    Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,
+    Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,Product10,Product11,
     Contactbg,Contactman,
     logo,
     logowht,

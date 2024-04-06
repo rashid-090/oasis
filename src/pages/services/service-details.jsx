@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { Prod2 } from '../../assets';
 import Sidebar from './sidebar';
-import {ServiceData} from '../../components/constant/data'
+import {ProductsData} from '../../components/constant/data'
 
 const ServiceDetails = () => {
   const { title } = useParams();
@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     // console.log('Decoded Title:', decodedTitle);
   }, [decodedTitle]);
 
-  const servicedata = ServiceData.find((s) => s.url === title);
+  const servicedata = ProductsData.find((s) => s.url === title);
   // console.log(visadata.methods.slice(0,1));
   if (!servicedata) {
     return <div>Service not found</div>;
@@ -26,16 +26,12 @@ const ServiceDetails = () => {
             </div>
             {/* content */}
             <div className='lg:basis-2/3 w-full h-full text-gray-500'>
-                <img className='w-full h-52 md:h-80 xl:h-[450px] object-cover' src={Prod2} alt="" loading='lazy'/>
+                <img className='w-full h-52 md:h-80 xl:h-[450px] object-cover' src={servicedata?.img} alt="" loading='lazy'/>
                 {/* <div className='space-y-3 mt-10 prose prose-h2:text-primary prose-h3:text-primary prose-h4:text-primary prose-p:text-gray-500 ' dangerouslySetInnerHTML={{ __html: servicedata.contents }}> */}
                 <div className='space-y-3 mt-10'>
-                <h2 className='text-2xl xl:text-4xl font-bold text-primary'>Condenser Coil</h2>
-<p className='text-base xl:text-lg'>At Al Tabreed, we are your preferred condenser coils manufacturer. Whether you
-are looking for air blast radiators, dry air coolers, chiller coils, exchange coils, or air-cooled
-condensers, we will deliver them to you. Also, we are manufacturers of air conditioning,
-forced air evaporators for heating, refrigeration, process cooling and heat recovery
-systems for industries.</p>
-<p className='text-base xl:text-lg'>We provide a broad range of standard and quality products that aligns with a series of
+                <h2 className='text-2xl xl:text-4xl font-bold text-primary'>{servicedata?.title}</h2>
+                <p className='text-base xl:text-lg'>{servicedata?.descption}</p>
+{/* <p className='text-base xl:text-lg'>We provide a broad range of standard and quality products that aligns with a series of
 cooling applications. Our business uses a flexible approach that helps us design and build
 equipment fit for different purposes.</p>
 <p className='text-base xl:text-lg'>Air Handling Units<br/>
@@ -144,7 +140,7 @@ Carrier, York, .and others. We also serve the automotive industry.
   their commitment to supporting their products throughout their lifespan. Choosing
   a manufacturer that ensures long-term service and parts availability can help
   minimize downtime and extend the life of the condenser coils.</p>
-</div>
+</div> */}
                 </div>
             </div>
         </div>

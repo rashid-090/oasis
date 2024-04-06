@@ -37,11 +37,12 @@ const HomePage = () => {
               </div>
               <div className='bg-[#e5e5e5] text-primary px-8 space-y-2  py-5 xl:p-14 rounded-[2rem] lg:rounded-[3rem] shadow-xl'>
                 <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold'>OUR MISSION</h2>
-                <p className='text-base md:text-sm lg:text-base 2xl:text-lg text-secondary'>At Oasis Group, we prioritize customer
-                  satisfaction, delivering efficient,
-                  cost-effective services with unwavering
-                  quality standards. Our dedicated team
-                  ensures client needs are met.</p>
+                <p className='text-base md:text-sm lg:text-base 2xl:text-lg text-secondary'>To provide innovative and efficient
+              cooling and heating solutions
+              through our oasis Cool and Heat
+              Coils, enhancing comfort and
+              productivity while minimizing
+              environmental impact.</p>
               </div>
           </div>  
       </div>
@@ -69,14 +70,7 @@ const HomePage = () => {
                 <div className='p-5 xl:p-14 flex flex-col gap-y-2 xl:gap-y-4'>
                   <h3 className='text-lg xl:text-3xl'>Why Choose Us?</h3>
                   <h2 className='text-xl xl:text-4xl font-bold'>WE PRODUCE AND WORK FOR EXCELLENCE</h2>
-                  <p className='text-sm xl:text-lg font-medium'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravidaa. Risus commodo
-                  viverra maecenas accumsan lacus vel facilisis. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravida. Risus commodo viverra maecenas
-                  accumsan lacus vel facilisis.</p>
+                  <p className='text-sm xl:text-lg font-medium'>Clients choose us because we are driven by a relentless pursuit of excellence in everything we produce and every task we undertake. At Oasis Cool & Heat Coils, our commitment to excellence is not just a goal; it's ingrained in our company culture. From the quality of our products to the precision of our workmanship, we set the standard for excellence in the industry. When you choose us, you're choosing a partner dedicated to delivering nothing short of the best.</p>
                 </div>
                 <div className=' p-5 xl:px-14 xl:py-8 bg-gradient-to-r from-[#196d6d] to-[#0c4884] text-white space-y-2'>
                     <p className='text-xs xl:text-lg font-medium'>STATISTICS OF GROWTH IN THE PAST 2 YEARS: <span className='font-bold'>80%</span></p>

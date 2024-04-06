@@ -17,12 +17,12 @@ import Service5 from './images/media/pp5.webp';
 
 import Product1 from './images/media/products/pp1.webp';
 import Product2 from './images/media/products/pp2.webp';
-import Product3 from './images/media/products/pp3.webp';
+import Product3 from './images/media/products/industry chiller.webp';
 import Product4 from './images/media/products/air conditioner.webp';
 import Product5 from './images/media/products/air handling.webp';
-import Product6 from './images/media/products/fan coil.webp';
+import Product6 from './images/media/products/fancoils.webp';
 import Product7 from './images/media/products/gylcolheat.webp';
-import Product8 from './images/media/products/heat pumps.webp';
+import Product8 from './images/media/products/heat-pumb.webp';
 import Product9 from './images/media/products/oil-coolers.webp';
 import Product10 from './images/media/products/Water and liquid cooler.webp';
 import Product11 from './images/media/products/steam coil.webp';

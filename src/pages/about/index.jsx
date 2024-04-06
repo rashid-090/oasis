@@ -48,46 +48,29 @@ const AboutUs = () => {
                 <h2 className='w-11/12  mx-auto text-2xl 2xl:text-4xl font-bold '>WE DO WHAT IT TAKES TO HELP OUR CUSTOMERS SUCCEED!!</h2>
             </div>
             <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 pb-10 xl:pb-20 -mt-44 lg:-mt-32'>
-                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
+                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp1} alt="" />
                     <h4 className='text-primary text-lg font-semibold uppercase mt-3'>25+ YEARS OF EXPERIENCE</h4>
-                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.</p>
+                    <p className='text-secondary font-medium text-[.7rem]'>With over 25 years of experience in the industry, Oasis Cool & Heat Coils has honed its expertise and built a solid reputation for delivering excellence in heat transfer solutions. Our extensive knowledge and proven track record ensure that we provide reliable and innovative services to meet our clients' needs.</p>
                 </div>
-                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
+                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp2} alt="" />
                     <h4 className='text-primary text-lg font-semibold uppercase mt-3'>PROFESSIONAL TEAM</h4>
-                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.</p>
+                    <p className='text-secondary font-medium text-[.7rem]'>At Oasis Cool & Heat Coils, our team is comprised of skilled professionals who are dedicated to delivering top-quality solutions with precision and expertise. With a commitment to ongoing training and development, our professionals stay at the forefront of industry trends, ensuring that our clients receive the highest level of service.</p>
                 </div>
-                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
+                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp4} alt="" />
                     <h4 className='text-primary text-lg font-semibold uppercase mt-3'>SAFETY IS OUR PRIORITY</h4>
-                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.</p>
+                    <p className='text-secondary font-medium text-[.7rem]'>Safety is paramount in everything we do at Oasis Cool & Heat Coils. We adhere to stringent safety protocols and standards to ensure the well-being of our employees, clients, and the communities we serve. From meticulous planning to rigorous implementation, we prioritize safety at every stage of our operations.</p>
                 </div>
-                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-2xl'>
+                <div className='bg-[#ededed] rounded-[2rem] text-center 2xl:rounded-[3rem] flex flex-col gap-y-2 items-center px-5 py-10 shadow-xl'>
                     <img className='h-28 w-28 object-contain' src={Abtp3} alt="" />
                     <h4 className='text-primary text-lg font-semibold uppercase mt-3'>100% CUSTOMER SATISFACTION</h4>
-                    <p className='text-secondary font-medium text-[.7rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.</p>
+                    <p className='text-secondary font-medium text-[.7rem]'>At Oasis Cool & Heat Coils, customer satisfaction is not just a goal; it's our commitment. We go above and beyond to understand our clients' needs and deliver tailored solutions that exceed their expectations. With a focus on quality, reliability, and responsiveness, we strive to ensure that every client is completely satisfied with our services.</p>
                 </div>
             </div>
             <div className='text-center text-secondary text-base md:text-lg 2xl:text-xl w-[90%] md:w-[80%] mx-auto pb-10 xl:pb-20'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <p>Embodying over two decades of expertise, Oasis Cool & Heat Coils boasts a seasoned team committed to excellence and safety at every turn. Our unwavering dedication to customer satisfaction drives us to deliver bespoke heat transfer solutions that redefine industry standards. Trust Oasis for innovation, professionalism, and unparalleled service, tailored to exceed your expectations.</p>
             </div>
        </div>
 

@@ -20,11 +20,7 @@ const sidebar = () => {
         </div>
         <div className='h-fit  bg-primary text-white px-7 md:px-4 md:py-4 xl:p-10 py-10 flex flex-col gap-5'>
             <h3 className='text-2xl xl:text-3xl font-semibold'>WE ARE HERE TO HELP</h3>
-            <p className='text-sm '>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Quis ipsum suspendisse
-            ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.</p>
+            <p className='text-sm '>If you're facing any challenges or need assistance, feel free to reach out to us. Our team is dedicated to providing support and solutions tailored to your needs. Whether it's guidance, advice, or practical assistance, we're just a message away. Don't hesitate to get in touch!</p>
             <Link to={'/contact-us'} className='bg-white text-primary text-base uppercase font-medium w-full h-10 xl:h-12 hover:underline grid place-items-center rounded-3xl'>contact us for help</Link>
         </div>
     </div>

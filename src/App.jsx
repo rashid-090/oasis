@@ -17,8 +17,8 @@ import { Header, Footer, Loading, PreLoader } from "./components";
 // =========Pages==========//
 const Home = lazy(() => import("./pages/home"));
 const About = lazy(() => import("./pages/about"));
-const Service = lazy(() => import("./pages/services"));
-const ServiceDetails = lazy(() => import("./pages/services/service-details"));
+const Product = lazy(() => import("./pages/product"));
+const ProductDetails = lazy(() => import("./pages/product/product-details"));
 const Careers = lazy(() => import("./pages/careers"));
 const Contact = lazy(() => import("./pages/contact"));
 
@@ -67,18 +67,18 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/services",
+        path: "/products",
         element: (
           <Suspense fallback={<PreLoader/>}>
-            <Service />
+            <Product />
           </Suspense>
         ),
       },
       {
-        path: "/services/:title",
+        path: "/products/:title",
         element: (
           <Suspense fallback={<PreLoader/>}>
-            <ServiceDetails />
+            <ProductDetails />
           </Suspense>
         ),
       },

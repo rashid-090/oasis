@@ -10,7 +10,7 @@ const sidebar = () => {
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:gap-5 gap-8'>
         <div className='flex flex-col gap-y-[0.10rem] h-fit bg-primary  font-semibold text-sm xl:text-base uppercase'>
                {ProductsData?.map((url,i)=>(
-                 <Link to={`/services/${url?.url}`} key={i} className={`${location.pathname === `/services/${url.url}` ? 'bg-primary text-white' : 'bg-gray-200 text-primary'} w-full px-7 py-3  border-primary`}>{url?.title}</Link>
+                 <Link to={`/products/${url?.url}`} key={i} className={`${location.pathname === `/products/${url.url}` ? 'bg-primary text-white' : 'bg-gray-200 text-primary'} w-full px-7 py-3  border-primary`}>{url?.title}</Link>
                ))}
                     {/* <Link className={`w-full px-7 py-3  border-primary bg-gray-200 text-primary`}>INDUSTRIAL HEAT EXCHANGER MANUFACTURER</Link>
                     <Link className={`w-full px-7 py-3  border-primary bg-gray-200 text-primary`}>INDUSTRIAL CHILLERS</Link>

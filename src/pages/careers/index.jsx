@@ -64,20 +64,20 @@ const Careers = () => {
                     <p className='text-base text-secondary'>Meaningful. Inspiring. Fulfilling. These are the sentiments echoed by our team members at Oasis Cool & Heat Coils. As part of our team, you'll have the freedom to make impactful decisions while also collaborating closely with colleagues. Each role within our organization is instrumental in driving our projects forward and contributing to the overall success and growth of our company.<br/> <br/>For qualified candidates, we offer:</p>
                     <div className='space-y-2 xl:space-y-4'>
                         <span className='flex items-start gap-3 md:gap-4'>
-                            <IoIosArrowDroprightCircle className='text-primary text-5xl md:text-3xl'/>
-                            <p className='text-base text-gray-600'>A welcoming and flexible work environment that encourages autonomy and provides meaningful tasks for all team members.</p>
+                            <IoIosArrowDroprightCircle className='text-primary text-3xl'/>
+                            <p className='text-base text-gray-600 w-full'>A welcoming and flexible work environment that encourages autonomy and provides meaningful tasks for all team members.</p>
                         </span>
                         <span className='flex items-start gap-3 md:gap-4'>
-                            <IoIosArrowDroprightCircle className='text-primary text-5xl md:text-3xl'/>
-                            <p className='text-base text-gray-600'>Opportunities for professional development through funding for work-related courses and training programs.</p>
+                            <IoIosArrowDroprightCircle className='text-primary text-3xl'/>
+                            <p className='text-base text-gray-600 w-full'>Opportunities for professional development through funding for work-related courses and training programs.</p>
                         </span>
                         <span className='flex items-start gap-3 md:gap-4'>
-                            <IoIosArrowDroprightCircle className='text-primary text-5xl md:text-3xl'/>
-                            <p className='text-base text-gray-600'>Comprehensive health benefits, including 100% coverage of health and life insurance premiums.</p>
+                            <IoIosArrowDroprightCircle className='text-primary text-3xl'/>
+                            <p className='text-base text-gray-600 w-full'>Comprehensive health benefits, including 100% coverage of health and life insurance premiums.</p>
                         </span>
                         <span className='flex items-start gap-3 md:gap-4'>
-                            <IoIosArrowDroprightCircle className='text-primary text-6xl md:text-4xl'/>
-                            <p className='text-base text-gray-600'>The opportunity to collaborate with smart, talented coworkers who share a passion for innovation and are dedicated to shaping a better future together.</p>
+                            <IoIosArrowDroprightCircle className='text-primary text-3xl'/>
+                            <p className='text-base text-gray-600 w-full'>The opportunity to collaborate with smart, talented coworkers who share a passion for innovation and are dedicated to shaping a better future together.</p>
                         </span>
                     </div>
                     <p className='text-base text-gray-600'>Join us at Oasis Cool & Heat Coils and become part of a team where great leadership and an awesome team culture are at the heart of everything we do.</p>

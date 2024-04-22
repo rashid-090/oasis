@@ -13,14 +13,18 @@ const AboutUs = () => {
             </div>
         </div>
         {/*  */}
-        <div className='w-11/12  mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-5 2xl:gap-x-20 py-10 xl:py-20'>
+        <div className='w-11/12  mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-5 2xl:gap-x-20 pt-10 xl:pt-20'>
                 <div className='overflow-hidden'>
                     <img className=' xl:h-96 h-60 md:h-full object-cover w-full' loading='lazy' src={Abtp} alt="oasis" />
                 </div>
                 <div className='flex flex-col justify-center gap-y-5'>
-                    <h2 className='text-2xl 2xl:text-4xl font-bold text-primary'>A COMPANY REVOLUTIONIZING HEAT TRANSFER PARADIGMS.</h2>
+                    <h2 className='text-2xl 2xl:text-4xl font-bold text-primary'>ABOUT US</h2>
                     <p className='text-base 2xl:text-lg text-secondary'>We at Oasis Group go above and beyond to ensure the satisfaction of our customers, and we always strive to provide exceptional customer service. Our fundamental principle is to deliver efficient and cost- effective services to our clients while maintaining the highest quality standards. Our team is dedicated to ensuring that we meet our clients' needs and exceed their expectations. Whether it's rentals or maintenance services, we ensure that our clients receive the best value for their money.</p>
                 </div>
+        </div>
+        <div className='w-11/12  mx-auto pt-5 space-y-3 pb-10 xl:pb-20'>
+                    <p className='text-base 2xl:text-lg text-secondary'>We began our journey 23 years ago in Hatta, UAE, which was then a rural area with limited transportation options for students commuting to schools located in central Dubai. Initially, we operated with a single Mitsubishi Rosa school bus, catering to a small but growing customer base. However, word of our reliable service soon spread throughout the area, leading to an increase in demand and prompting us to expand our operations.</p>
+                    <p className='text-base 2xl:text-lg text-secondary'>Today, we are proud to have established a strong presence in Dubai, Sharjah, and Ajman, and our unwavering commitment to delivering exceptional customer service and high-quality products has earned us the trust and loyalty of numerous valued customers. As we continue to expand and evolve, we remain dedicated to meeting our customers' ever-changing needs and providing them with the finest rental and automobile services.</p>
         </div>
         {/*  */}
         <div className='w-11/12  mx-auto grid grid-cols-1 md:grid-cols-3 gap-7 pb-10 xl:pb-20'>

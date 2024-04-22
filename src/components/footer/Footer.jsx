@@ -54,10 +54,10 @@ const Footer = () => {
             <h3 className='text-lg md:text-2xl uppercase font-bold pb-5 xl:pb-10'>NEWSLETTER</h3>
             <div className='space-y-5'>
               <p className='text-base'>Subscribe to our Newsletter & Event right now to be updated.</p>
-              <div className='relative'>
+              <form className='relative'>
                 <input className='w-full bg-white rounded-xl p-3 pr-14  outline-none text-black font-light placeholder:text-[#2e9970]' type="text" placeholder='Enter Your Email Here'/>
-                <FaCircleArrowRight className='cursor-pointer absolute top-2 right-3 text-3xl text-primary'/>
-              </div>
+                <button type='submit'><FaCircleArrowRight className='cursor-pointer absolute top-2 right-3 text-3xl text-primary'/></button>
+              </form>
             </div>
           </div>
        </div>

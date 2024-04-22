@@ -22,7 +22,7 @@ const Services = () => {
                         <div className="p-5 flex flex-col gap-y-4">
                             <h2 className="text-lg xl:text-xl font-bold uppercase text-primary">{item.title}</h2>
                             <p className="text-xs xl:text-sm font-medium text-secondary">{item.descption}</p>
-                            <Link onClick={() => navigate(`/services/${item.url}`)} className="bg-primary hover:bg-blue-600 text-white w-fit px-6 py-2 rounded-full uppercase text-sm md:text-base font-medium ml-auto">learn more</Link>
+                            <Link onClick={() => navigate(`/products/${item.url}`)} className="bg-primary hover:bg-blue-600 text-white w-fit px-6 py-2 rounded-full uppercase text-sm md:text-base font-medium ml-auto">learn more</Link>
                         </div>
                     </div>
             ))}

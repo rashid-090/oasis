@@ -18,7 +18,7 @@ const ContactUs = () => {
             <div className='lg:col-span-4 p-5 xl:p-10'>
                 <h2 className='text-2xl md:text-4xl 2xl:text-5xl font-semibold text-primary'>CONTACT US TODAY!</h2>
                 <h3 className='text-xl md:text-3xl font-normal mb-8'>We are here to help.</h3>
-                <form className='flex relative flex-col gap-4 osasis-form text-base xl:text-lg font-normal placeholder:text-gray-500'>
+                <form className='flex relative flex-col gap-4 osasis-form text-sm md:text-base xl:text-lg font-normal placeholder:text-gray-500'>
                     <input type="text" placeholder='Name' required/>
                     <input type="email" placeholder='email' required/>
                     <input className='[&::-webkit-inner-spin-button]:appearance-none' type="number" placeholder='phone' inputMode='numeric'/>
@@ -32,7 +32,7 @@ const ContactUs = () => {
                     <textarea rows="6" placeholder='message'></textarea>
                     <div className='flex items-center md:gap-3'>
                         <Checkbox  sx={{color:'#0259b2','&.Mui-checked': {color: '#116f49',}}} required/>
-                        <p className='text-sm md:text-base mt-1'>I here by accept all terms & conditions.</p>
+                        <p className='text-xs md:text-base mt-1'>I here by accept all terms & conditions.</p>
                     </div>
                     <button className='bg-primary w-fit h-12 text-white text-lg uppercase px-10 rounded-xl hover:bg-blue-600 duration-150' type='submit'>submit form</button>
                 </form>

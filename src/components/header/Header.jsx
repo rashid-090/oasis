@@ -22,7 +22,7 @@ const Header = () => {
   const menuItems = [
     { path: '/', label: 'home' },
     { path: '/about-us', label: 'about us' },
-    { path: '/services', label: 'our services' },
+    { path: '/products', label: 'our products' },
     { path: '/careers', label: 'careers' },
     { path: '/contact-us', label: 'contact us' },
     // { path: '/blog', label: 'blog' },
@@ -66,7 +66,7 @@ const Header = () => {
          <GiHamburgerMenu onClick={toggleMenu} className='block xl:hidden text-3xl text-primary'/>
       </div>
       <div className={`${open ? "scale-100 bg-white text-primary h-screen overflow-y-scroll" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>
-      <Link to={'/'}><img className='h-10 w-24 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>
+      <Link to={'/'}><img onClick={()=> setOpen(false)} className=' h-10 w-24 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>
           <button onClick={toggleMenu}>
             <MdOutlineClose  className='text-primary text-4xl absolute top-5 right-5'/>
           </button>

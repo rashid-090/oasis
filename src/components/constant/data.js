@@ -48,22 +48,14 @@ export const ProductsData = [
     id: 4,
     title: `CONDENSER COIL MANUFACTURER`,
     url: `condenser-coil-manufacturer`,
-    descption: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+    descption: `A condenser coil manufacturer specializes in crafting high-quality coils designed to efficiently remove heat from refrigerant vapor in various cooling systems, such as air conditioners, refrigerators, and heat pumps. With precision engineering and quality materials, they ensure optimal performance and durability for their products, contributing to the efficiency and longevity of cooling systems worldwide.`,
     img: Product1,
   },
   {
     id: 5,
     title: `INDUSTRIAL HEAT EXCHANGER MANUFACTURER`,
     url: `industrial-heat-exchange-manufacturer`,
-    descption: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida. Risus commodo viverra maecenas
-        accumsan lacus vel facilisis.`,
+    descption: `An industrial heat exchanger manufacturer designs and produces a range of heat exchange solutions tailored to meet the diverse needs of industrial processes. From shell-and-tube to plate-and-frame designs, their products facilitate the transfer of heat between two or more fluids, crucial for applications in sectors such as petrochemicals, power generation, HVAC, and food processing. With a focus on innovation and reliability, they play a vital role in enhancing energy efficiency and productivity across various industries.`,
     img: Product2,
   },
   {
@@ -105,11 +97,7 @@ export const ProductsData = [
     id: 11,
     title: `Oil coolers for hydraulic systems`,
     url: `oil-cooler-for-hydraulic-systems`,
-    descption: `Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua. Quis ipsum suspendisse
-      ultrices gravida. Risus commodo viverra maecenas
-      accumsan lacus vel facilisis.`,
+    descption: `An oil cooler manufacturer for hydraulic systems specializes in crafting cooling solutions designed to regulate the temperature of hydraulic fluids in various industrial applications. Their products effectively dissipate heat generated during hydraulic operations, ensuring optimal performance and longevity of hydraulic components. With expertise in heat transfer technology and a commitment to quality, they provide reliable cooling solutions to industries such as construction, manufacturing, and transportation, enhancing system efficiency and minimizing downtime.`,
     img: Product9,
   },
 ];

@@ -58,9 +58,9 @@ const ProductSlider = () => {
                     <div className="text-left bg-[#eaebe6] rounded-[2rem] overflow-hidden border-r-8 border-b-8 border-primary">
                         <img className="h-52 w-full object-cover" loading="lazy" src={item.img} alt={item.title} />
                         <div className="p-5 flex flex-col gap-y-2 md:gap-y-4">
-                            <h2 className="text-lg xl:text-xl font-bold uppercase text-primary">{item.title}</h2>
-                            <p className="text-xs xl:text-sm font-medium text-secondary">{item.descption}</p>
-                            {/* <Link to={'/services'} className="bg-primary hover:bg-blue-600 text-white w-fit px-6 py-2 rounded-full uppercase text-sm md:text-base font-medium ">learn more</Link> */}
+                            <h2 className="text-lg xl:text-xl font-bold uppercase text-primary text-center">{item.title}</h2>
+                            {/* <p className="text-xs xl:text-sm font-medium text-secondary">{item.descption}</p>
+                            <Link to={'/services'} className="bg-primary hover:bg-blue-600 text-white w-fit px-6 py-2 rounded-full uppercase text-sm md:text-base font-medium ">learn more</Link> */}
                         </div>
                     </div>
                 </SwiperSlide>

@@ -30,7 +30,7 @@ const Header = () => {
   return (
    <nav className=''>
       <div className='flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-2 border-primary'>
-        <Link to={'/'}><img className='h-10 w-24 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={logo} alt="logo" /></Link>
+        <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={logo} alt="logo" /></Link>
         <div className='hidden md:flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
               <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconphn} alt="icon" />
@@ -66,7 +66,7 @@ const Header = () => {
          <GiHamburgerMenu onClick={toggleMenu} className='block xl:hidden text-3xl text-primary'/>
       </div>
       <div className={`${open ? "scale-100 bg-white text-primary h-screen overflow-y-scroll" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>
-      <Link to={'/'}><img onClick={()=> setOpen(false)} className=' h-10 w-24 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>
+      <Link to={'/'}><img onClick={()=> setOpen(false)} className=' h-14 w-32 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>
           <button onClick={toggleMenu}>
             <MdOutlineClose  className='text-primary text-4xl absolute top-5 right-5'/>
           </button>

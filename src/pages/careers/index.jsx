@@ -85,7 +85,7 @@ const Careers = () => {
             </div>
         </div>
         {/*  */}
-        <div className='w-11/12 xl:w-[90%] mx-auto py-10 xl:py-20'>
+        <div className='w-11/12 xl:w-[90%] mx-auto py-10'>
             <h2 className='text-2xl lg:text-4xl 2xl:text-4xl font-bold text-primary text-center'>AVAILABLE VACANCIES</h2>
             <div className='pt-6 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5 xl:gap-8 text-center text-xs sm:text-base lg:text-xl 2xl:text-3xl'>
                 <span className='bg-primary text-white p-2 sm:p-4 md:p-3 lg:p-4 rounded-md md:rounded-xl'>
@@ -100,6 +100,9 @@ const Careers = () => {
                 <span className='bg-primary text-white p-2 sm:p-4 md:p-3 lg:p-4 rounded-md md:rounded-xl'>
                     <h2>DRAFTSMAN</h2>
                 </span>
+            </div>
+            <div className='pt-10 text-xl text-center group'>
+                <p>Please forward your CV to <a href="mailto:ajmal@oasisaccoils.com" className='group-hover:underline' target='_blank'>ajmal@oasisaccoils.com</a> if you believe you are the ideal candidate for the position.</p>
             </div>
         </div>
     </main>

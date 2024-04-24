@@ -44,7 +44,7 @@ const Footer = () => {
             <h3 className='text-lg md:text-2xl uppercase font-bold pb-5 xl:pb-10'>QUICK LINKS</h3>
             <ul className='text-base 2xl:text-lg font-normal uppercase space-y-2'>
               <li className='underline-hover-effect2 w-fit'><Link to='/about-us'>about us</Link></li>
-              <li className='underline-hover-effect2 w-fit'><Link to='/services'>our services</Link></li>
+              <li className='underline-hover-effect2 w-fit'><Link to='/products'>our products</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/careers'>careers</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/contact-us'>get in touch</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/blog'>Blog</Link></li>

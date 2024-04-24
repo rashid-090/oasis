@@ -101,7 +101,7 @@ const Careers = () => {
                     <h2>DRAFTSMAN</h2>
                 </span>
             </div>
-            <div className='pt-10 text-xl text-center group'>
+            <div className='pt-10 text-xl text-gray-600 text-center group'>
                 <p>Please forward your CV to <a href="mailto:ajmal@oasisaccoils.com" className='group-hover:underline' target='_blank'>ajmal@oasisaccoils.com</a> if you believe you are the ideal candidate for the position.</p>
             </div>
         </div>

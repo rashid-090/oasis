@@ -21,13 +21,15 @@ const Product = lazy(() => import("./pages/product"));
 const ProductDetails = lazy(() => import("./pages/product/product-details"));
 const Careers = lazy(() => import("./pages/careers"));
 const Contact = lazy(() => import("./pages/contact"));
+const Blogs = lazy(() => import("./pages/blog"));
+const BlogsInner = lazy(() => import("./pages/blog/inner"));
 
 
 const Layout = () => {
   return (
     <>
       <ScrollToTop />
-      <ToastContainer />
+      <ToastContainer position="bottom-right"/>
       <div className="2xl:max-w-[1536px] mx-auto min-h-screen flex flex-col justify-between">
         <Header/>
         <Outlet />
@@ -95,6 +97,22 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PreLoader/>}>
             <Contact />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/blog",
+        element: (
+          <Suspense fallback={<PreLoader/>}>
+            <Blogs />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/blog/:title",
+        element: (
+          <Suspense fallback={<PreLoader/>}>
+            <BlogsInner />
           </Suspense>
         ),
       },

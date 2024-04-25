@@ -2,6 +2,7 @@ import logo from './images/logo/oasisLogo.svg';
 import logowht from './images/logo/oasiswhiteLogo.svg';
 import iconphn from './images/icons/phone-call.svg';
 import iconenvp from './images/icons/envelope.svg';
+import success from './images/media/success.webp';
 
 import Prod1 from './images/media/pp1.webp';
 import Prod2 from './images/media/pp2.webp';
@@ -49,6 +50,7 @@ import Careerp4 from './images/media/careers/careerp4.svg';
 
 
 export{
+    success,
     Service1,Service2,Service3,Service4,Service5,
     Product1,Product2,Product3,Product4,Product5,Product6,Product7,Product8,Product9,Product10,Product11,
     Contactbg,Contactman,

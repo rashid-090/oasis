@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {logowht} from '../../assets'
+import {logowht,footlogo} from '../../assets'
 import { FaFacebook } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { PiPhoneCallLight } from "react-icons/pi";
@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className='w-full text-white bg-gradient-to-r from-[#104c8b] via-[#135f7c] to-[#116f47]'>
        <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-x-20 xl:grid-cols-4 py-10'>
           <div className='space-y-5'>
-            <Link to='/'><img className='w-40 h-16 md:w-44 md:h-20 object-contain' src={logowht} alt="oasis" /></Link>
+            <Link to='/'><img className='w-40 h-16 md:w-44 md:h-20 object-contain' src={footlogo} alt="oasis" /></Link>
             <p className='text-sm'>At Oasis Group, we prioritize
               customer satisfaction, delivering
               efficient, cost-effective services
@@ -25,7 +25,7 @@ const Footer = () => {
             <h3 className='text-lg md:text-2xl uppercase font-bold pb-5 xl:pb-10'>contact us</h3>
             <div className='space-y-5'>
               <div className='space-y-2 text-base '>
-                  <span className='flex items-center gap-3 group'><PiPhoneCallLight className='text-3xl'/><a href="#" className='group-hover:underline'>+67313579</a></span>
+                  <span className='flex items-center gap-3 group'><PiPhoneCallLight className='text-3xl'/><a href="tel:+97167313579" className='group-hover:underline'>+97167313579</a></span>
                   <span className='flex items-center gap-3 group'><TfiEmail className='text-2xl'/><a href="#" className='group-hover:underline'>sales@oasisaccoils.com</a></span>
               </div>
               <div className='text-base 2xl:pl-9 space-y-4'>

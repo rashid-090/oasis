@@ -36,7 +36,7 @@ const Header = () => {
               <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconphn} alt="icon" />
               <div>
                 <p className='text-sm xl:text-base font-semibold text-primary'>CALL US FOR 24/7 SUPPORT</p>
-                <a href='tel:+67 31 35 79' target='_blank' className='group-hover:underline duration-150 text-sm text-secondary hover:text-primary'>+67 31 35 79</a>
+                <a href='tel:+97167313579' target='_blank' className='group-hover:underline duration-150 text-sm text-secondary hover:text-primary'>+97167313579</a>
               </div>
           </div>
           <div className='flex gap-5  group'>
@@ -49,7 +49,7 @@ const Header = () => {
         </div>
         {/* mobile */}
         <div className='flex gap-5 items-center md:hidden text-white'>
-            <a href='tel:+67 31 35 79' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><FiPhoneCall className='text-2xl'/></a>
+            <a href='tel:+97167313579' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><FiPhoneCall className='text-2xl'/></a>
             <a href='mailto:sales@oasisaccoils.com' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><TfiEmail className='text-2xl'/></a>
         </div>
       </div>

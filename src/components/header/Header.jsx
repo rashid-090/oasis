@@ -25,7 +25,7 @@ const Header = () => {
     { path: '/products', label: 'our products' },
     { path: '/careers', label: 'careers' },
     { path: '/contact-us', label: 'contact us' },
-    { path: '/blog', label: 'blog' },
+    { path: '/blog/A-Journey-of-Excellence:Oasis-Cool-&-Coils-LLC', label: 'blog' },
   ];
   return (
    <nav className=''>

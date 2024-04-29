@@ -76,7 +76,7 @@ const ContactUs = () => {
                         {ProductsData?.map((data,i)=>(
                             <option value={data.title} key={i} className='!capitalize'>{data.title}</option>
                         ))}
-
+                        <option value="other">Other</option>
                     </select>
                     <textarea rows="6" placeholder='message' name='user_message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                     <div className='flex items-center md:gap-3'>

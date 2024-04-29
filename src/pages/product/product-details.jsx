@@ -29,8 +29,9 @@ const ServiceDetails = () => {
                 <img className='w-full h-52 md:h-80 xl:h-[450px] object-cover' src={servicedata?.img} alt="" loading='lazy'/>
                 {/* <div className='space-y-3 mt-10 prose prose-h2:text-primary prose-h3:text-primary prose-h4:text-primary prose-p:text-gray-500 ' dangerouslySetInnerHTML={{ __html: servicedata.contents }}> */}
                 <div className='space-y-3 mt-10'>
-                <h2 className='text-2xl xl:text-4xl font-bold text-primary'>{servicedata?.title}</h2>
+                <h2 className='text-2xl xl:text-4xl font-bold text-primary capitalize'>{servicedata?.title}</h2>
                 <p className='text-base xl:text-lg'>{servicedata?.descption}</p>
+                <p className='text-base xl:text-lg'>{servicedata?.desc2}</p>
 {/* <p className='text-base xl:text-lg'>We provide a broad range of standard and quality products that aligns with a series of
 cooling applications. Our business uses a flexible approach that helps us design and build
 equipment fit for different purposes.</p>

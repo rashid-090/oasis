@@ -47,7 +47,7 @@ const Footer = () => {
               <li className='underline-hover-effect2 w-fit'><Link to='/products'>our products</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/careers'>careers</Link></li>
               <li className='underline-hover-effect2 w-fit'><Link to='/contact-us'>get in touch</Link></li>
-              <li className='underline-hover-effect2 w-fit'><Link to='/blog'>Blogs</Link></li>
+              <li className='underline-hover-effect2 w-fit'><Link to='/blog/A-Journey-of-Excellence:Oasis-Cool-&-Coils-LLC'>Blogs</Link></li>
             </ul>
           </div>
           <div>

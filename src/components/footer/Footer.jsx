@@ -19,7 +19,7 @@ const Footer = () => {
               with unwavering quality standards.
               Our dedicated team ensures
               client needs are met.</p>
-              <span className='flex gap-3 text-4xl'><FaFacebook className='hover:-translate-y-1 duration-150'/><BsInstagram className='hover:-translate-y-1 duration-150'/></span>
+              <span className='flex gap-3 text-4xl'><a href="#" target='_blank'><FaFacebook className='hover:-translate-y-1 duration-150'/></a><a href="https://www.instagram.com/oasis.accoils?igsh=MXg0bzlyMHNha2JwZg==" target='_blank'><BsInstagram className='hover:-translate-y-1 duration-150'/></a></span>
           </div>
           <div>
             <h3 className='text-lg md:text-2xl uppercase font-bold pb-5 xl:pb-10'>contact us</h3>

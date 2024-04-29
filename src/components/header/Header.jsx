@@ -29,21 +29,21 @@ const Header = () => {
   ];
   return (
    <nav className=''>
-      <div className='flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-2 border-primary'>
+      <div className={`flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-2  ${location.pathname === '/' ? 'border-primary' : 'border-primary'}`}>
         <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={logo} alt="logo" /></Link>
         <div className='hidden md:flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
               <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconphn} alt="icon" />
               <div>
-                <p className='text-sm xl:text-base font-semibold text-primary'>CALL US FOR 24/7 SUPPORT</p>
-                <a href='tel:+97167313579' target='_blank' className='group-hover:underline duration-150 text-sm text-secondary hover:text-primary'>+97167313579</a>
+                <p className='text-sm xl:text-lg font-semibold text-primary'>CALL US FOR 24/7 SUPPORT</p>
+                <a href='tel:+97167313579' target='_blank' className='group-hover:underline duration-150 text-sm xl:text-base text-secondary hover:text-primary xl:tracking-wider'>+97167313579</a>
               </div>
           </div>
           <div className='flex gap-5  group'>
             <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconenvp} alt="icon" />
             <div>
-                <p className='text-sm xl:text-base font-semibold text-primary'>EMAIL US</p>
-                <a href='mailto:sales@oasisaccoils.com' target='_blank' className='group-hover:underline duration-150 text-sm text-secondary hover:text-primary'>sales@oasisaccoils.com</a>
+                <p className='text-sm xl:text-lg font-semibold text-primary'>EMAIL US</p>
+                <a href='mailto:sales@oasisaccoils.com' target='_blank' className='group-hover:underline duration-150 text-sm xl:text-base text-secondary hover:text-primary'>sales@oasisaccoils.com</a>
               </div>
           </div>
         </div>

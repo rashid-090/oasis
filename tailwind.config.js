@@ -22,7 +22,8 @@ export default {
       colors:{
         primary:'#0259b2',
         secondary:'#888888',
-        hovclr:'#2563eb'
+        hovclr:'#2563eb',
+        third:'#03ae88',
 
       },
       fontFamily: {

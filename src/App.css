@@ -166,6 +166,23 @@ body{
 }
 
 /* effect */
+.underline-hover-home {
+  position: relative;
+}
+
+.underline-hover-home::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.25s ease-out;
+}
+.underline-hover-home:hover::before {
+  width: 100%;
+}
 .underline-hover-effect {
   position: relative;
 }

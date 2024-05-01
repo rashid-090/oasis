@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {logo,iconenvp,iconphn} from '../../assets';
+import {logo,logowht,iconenvp,iconphn,iconphnwht,iconenvpwht} from '../../assets';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
@@ -28,42 +28,42 @@ const Header = () => {
     { path: '/blog/A-Journey-of-Excellence:Oasis-Cool-&-Coils-LLC', label: 'blog' },
   ];
   return (
-   <nav className=''>
-      <div className={`flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-2  ${location.pathname === '/' ? 'border-primary' : 'border-primary'}`}>
-        <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={logo} alt="logo" /></Link>
+   <nav className={`${location.pathname === '/' ? 'absolute top-0 left-0 right-0' : 'relative'}`}>
+      <div className={`flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-2 ${location.pathname === '/' ? 'boredr-white' : 'border-primary'} `}>
+        <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={location.pathname === '/' ? logowht : logo} alt="logo" /></Link>
         <div className='hidden md:flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
-              <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconphn} alt="icon" />
+              <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={location.pathname === '/' ? iconphnwht : iconphn} alt="icon" />
               <div>
-                <p className='text-sm xl:text-lg font-semibold text-primary'>CALL US FOR 24/7 SUPPORT</p>
-                <a href='tel:+97167313579' target='_blank' className='group-hover:underline duration-150 text-sm xl:text-base text-secondary hover:text-primary xl:tracking-wider'>+97167313579</a>
+                <p className={`text-sm xl:text-lg font-semibold ${location.pathname === '/' ? 'text-white' : 'text-primary'}`}>CALL US FOR 24/7 SUPPORT</p>
+                <a href='tel:+97167313579' target='_blank' className={`group-hover:underline duration-150 text-sm xl:text-base ${location.pathname === '/' ? 'text-white hover:text-white' : 'text-secondary hover:text-primary'} text-secondary hover:text-primary xl:tracking-wider`}>+97167313579</a>
               </div>
           </div>
           <div className='flex gap-5  group'>
-            <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={iconenvp} alt="icon" />
+            <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={location.pathname === '/' ? iconenvpwht : iconenvp} alt="icon" />
             <div>
-                <p className='text-sm xl:text-lg font-semibold text-primary'>EMAIL US</p>
-                <a href='mailto:sales@oasisaccoils.com' target='_blank' className='group-hover:underline duration-150 text-sm xl:text-base text-secondary hover:text-primary'>sales@oasisaccoils.com</a>
+                <p className={`text-sm xl:text-lg font-semibold  ${location.pathname === '/' ? 'text-white' : 'text-primary'}`}>EMAIL US</p>
+                <a href='mailto:sales@oasisaccoils.com' target='_blank' className={`group-hover:underline duration-150 text-sm xl:text-base ${location.pathname === '/' ? 'text-white hover:text-white' : 'text-secondary hover:text-primary'}`}>sales@oasisaccoils.com</a>
               </div>
           </div>
         </div>
         {/* mobile */}
         <div className='flex gap-5 items-center md:hidden text-white'>
-            <a href='tel:+97167313579' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><FiPhoneCall className='text-2xl'/></a>
-            <a href='mailto:sales@oasisaccoils.com' target='_blank' className='bg-primary h-10 w-10 grid place-items-center rounded-full'><TfiEmail className='text-2xl'/></a>
+            <a href='tel:+97167313579' target='_blank' className={`${location.pathname === '/' ? 'bg-white text-primary' : 'bg-primary text-white' } h-10 w-10 grid place-items-center rounded-full`}><FiPhoneCall className='text-2xl'/></a>
+            <a href='mailto:sales@oasisaccoils.com' target='_blank' className={`${location.pathname === '/' ? 'bg-white text-primary' : 'bg-primary text-white' } h-10 w-10 grid place-items-center rounded-full`}><TfiEmail className='text-2xl'/></a>
         </div>
       </div>
       {/* menu */}
       <div className='px-5 md:px-10 flex h-16 lg:h-20  items-center justify-between'>
          <ul className='hidden xl:flex gap-5  items-center '>
           {menuItems?.map((item,i)=>(
-            <li key={i} className={`capitalize ${currentPathname === item.path ? 'bg-primary text-white ' : 'bg-white text-secondary underline-hover-effect'} text-lg 2xl:text-xl font-medium px-3 py-0.5 rounded-[4px] `}>
+            <li key={i} className={`${location.pathname === '/' ? 'text-white  underline-hover-home' : 'text-gray-600 underline-hover-effect'} capitalize ${currentPathname === item.path ? 'bg-primary text-white ' : ' '}  text-lg 2xl:text-xl font-medium px-3 py-0.5 rounded-[4px] `}>
               <Link to={item.path} className='uppercase'>{item.label}</Link>
             </li>
           ))}
          </ul>
-         <Link to="/contact-us" className='flex items-center gap-3 bg-primary hover:bg-hovclr text-white px-5 py-2  lg:px-10 lg:py-3 rounded-3xl font-semibold'><p>Get a Quote</p><IoIosArrowDroprightCircle className='text-2xl'/></Link>
-         <GiHamburgerMenu onClick={toggleMenu} className='block xl:hidden text-3xl text-primary'/>
+         <Link to="/contact-us" className={`flex items-center gap-3 ${location.pathname === '/' ? 'bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary duration-150' : 'bg-primary hover:bg-hovclr text-white' }  px-5 py-2  lg:px-10 lg:py-3 rounded-3xl font-semibold`}><p>Get a Quote</p><IoIosArrowDroprightCircle className='text-2xl'/></Link>
+         <GiHamburgerMenu onClick={toggleMenu} className={`block xl:hidden text-3xl ${location.pathname === '/' ? 'text-white' : 'text-primary'}`}/>
       </div>
       <div className={`${open ? "scale-100 bg-white text-primary h-screen overflow-y-scroll" : "scale-0 bg-white"} transform transition-transform duration-200 ease-linear fixed  left-0 right-0 bottom-0 top-0 z-[999999]`}>
       <Link to={'/'}><img onClick={()=> setOpen(false)} className=' h-14 w-32 object-contain absolute top-5 left-5' src={logo} alt="logo" /></Link>

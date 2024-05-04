@@ -4,7 +4,7 @@ import iconphn from './images/icons/phone-call.svg';
 import iconphnwht from './images/logo/lgwht.svg';
 import iconenvp from './images/icons/envelope.svg';
 import iconenvpwht from './images/logo/envelopewhite.svg';
-import success from './images/media/success.webp';
+import success from './images/media/blog.webp';
 import footlogo from './images/logo/footlogoo.webp';
 
 import Prod1 from './images/media/pp1.webp';
@@ -33,7 +33,7 @@ import Product11 from './images/media/products/steam coil.webp';
 
 import Projectbg from './images/media/project.webp';
 
-import Abtp from './images/media/oasisabt.png';
+import Abtp from './images/media/aboutus.webp';
 import Abtp1 from './images/media/quality.svg';
 import Abtp2 from './images/media/management.svg';
 import Abtp3 from './images/media/customer-service.svg';
@@ -45,7 +45,7 @@ import Commitep from './images/media/commitment.webp';
 import Contactbg from './images/media/contactbg.webp';
 import Contactman from './images/media/contactman.webp';
 
-import Careerbg2 from './images/media/careers/carrerbg2.webp';
+import Careerbg2 from './images/media/careers.webp';
 import Careerp1 from './images/media/careers/careerp1.svg';
 import Careerp2 from './images/media/careers/careerp2.svg';
 import Careerp3 from './images/media/careers/careerp3.svg';

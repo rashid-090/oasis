@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {logo,logowht,iconenvp,iconphn,iconphnwht,iconenvpwht} from '../../assets';
+import {logo,footlogo,logowht,iconenvp,iconphn,iconphnwht,iconenvpwht} from '../../assets';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
@@ -30,7 +30,7 @@ const Header = () => {
   return (
    <nav className={`${location.pathname === '/' ? 'absolute top-0 left-0 right-0' : 'relative'}`}>
       <div className={`flex  gap-y-5 justify-between items-center px-5 md:px-10  py-2 border-b-4 ${location.pathname === '/' ? 'border-[#ffffff4d]' : 'border-[#025ab295]'} `}>
-        <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={location.pathname === '/' ? logowht : logo} alt="logo" /></Link>
+        <Link to={'/'}><img className='h-14 w-32 md:h-14 md:w-24  xl:h-20 xl:w-40 object-contain' src={location.pathname === '/' ? footlogo : logo} alt="logo" /></Link>
         <div className='hidden md:flex flex-col md:flex-row gap-y-5 gap-x-5 xl:gap-x-10'>
           <div className='flex gap-5  group md:border-r-2 border-gray-300 md:pr-5 xl:pr-9'>
               <img loading='lazy' className=' h-8 w-8 xl:h-10 xl:w-10 object-contain' src={location.pathname === '/' ? iconphnwht : iconphn} alt="icon" />

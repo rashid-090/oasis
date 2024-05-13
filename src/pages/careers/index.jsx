@@ -7,7 +7,7 @@ const Careers = () => {
     <main>
         <div className='bg-carrerbg w-full bg-cover bg-top aspect-auto lg:aspect-[20/7]'>
             <div className='w-11/12 2xl:w-10/12 mx-auto text-white flex flex-col gap-y-4 py-14 xl:py-0 justify-center h-full'>
-              <h1 className='text-3xl md:text-5xl 2xl:text-7xl font-bold'>BE A PART OF OUR FAMILY</h1>
+              <h1 className='text-3xl md:text-5xl 2xl:text-7xl font-bold'>BE A PART OF OUR FAMILY.</h1>
               <p className='text-sm md:text-base xl:text-lg 2xl:text-xl font-normal text-gray-200'>WE TAKE OUR RESPONSIBILITIES AS AN EMPLOYER VERY SERIOUSLY.<br className='hidden md:block'/>
               WE TAKE GOOD CARE OF OUR NEW EMPLOYEES, BUT WE ALSO CHALLENGE<br className='hidden md:block'/>
               THEM FROM THE VERY BEGINNING BY GIVING THEM RESPONSIBILITIES VERY QUICKLY.</p>

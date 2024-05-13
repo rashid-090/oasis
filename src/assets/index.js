@@ -4,7 +4,7 @@ import iconphn from './images/icons/phone-call.svg';
 import iconphnwht from './images/logo/lgwht.svg';
 import iconenvp from './images/icons/envelope.svg';
 import iconenvpwht from './images/logo/envelopewhite.svg';
-import success from './images/media/blog.webp';
+import success from './images/media/success.webp';
 import footlogo from './images/logo/footlogoo.webp';
 
 import Prod1 from './images/media/pp1.webp';

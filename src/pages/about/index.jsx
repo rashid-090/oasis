@@ -7,8 +7,8 @@ const AboutUs = () => {
     <main>
         <div className='bg-oasisbg w-full bg-cover bg-top aspect-auto lg:aspect-[20/7]'>
             <div className='w-11/12 2xl:w-10/12 mx-auto text-white flex flex-col gap-y-4 py-14 xl:py-0 justify-center h-full'>
-            <h1 className='text-3xl xl:text-5xl font-bold'>WE ARE A LEADING COOLING SYSTEMS<br className='hidden md:block'/> AND BRAKE LININGS PROVIDERIN UAE</h1>
-            <p className='text-sm md:text-base xl:text-lg font-normal text-gray-200'>OUR TEAM, DEEPLY PASSIONATE AND TECHNICALLY ADEPT, IS COMMITTED<br className='hidden md:block'/> TO DELIVERING UNPARALLELED HEAT REJECTION SOLUTIONS IN THE UAE.</p>
+            <h1 className='text-3xl xl:text-5xl font-bold'>WE ARE A LEADING COOLING SYSTEMS<br className='hidden md:block'/> AND BRAKE LININGS PROVIDER IN UAE.</h1>
+            <p className='text-sm md:text-base xl:text-lg font-normal text-gray-200'>Our expertise in cooling systems and brake linings has positioned us as a trusted leader in the UAE market.<br className='hidden md:block'/> With a comprehensive range of products and a dedication to excellence in service,<br className='hidden md:block'/> we ensure optimal performance and safety for our clients across various industries.</p>
             <Link to={'/contact-us'} className='bg-primary hover:bg-white hover:text-primary duration-150 uppercase text-base font-medium mt-3 px-10 w-fit py-3 rounded-xl'>Learn more</Link>
             </div>
         </div>

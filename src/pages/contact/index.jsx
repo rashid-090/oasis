@@ -53,7 +53,7 @@ const ContactUs = () => {
     }
   return (
     <main>
-        <div className='bg-oasisbg w-full bg-cover bg-top aspect-auto lg:aspect-[20/7]'>
+        <div className='bg-ctabg w-full bg-cover bg-center aspect-auto lg:aspect-[20/7]'>
                 <div className='w-11/12 2xl:w-10/12 mx-auto text-white flex flex-col gap-y-4 py-14 xl:py-0 justify-center h-full'>
                 <h1 className='text-3xl md:text-5xl 2xl:text-7xl font-bold'>GET IN TOUCH WITH US !</h1>
                 <p className='text-sm md:text-base xl:text-lg 2xl:text-xl font-medium text-gray-200'>replace this with "Ready to upgrade your cooling system?<br className='hidden xl:block'/> Look no further! Get in touch with Oasis Cool & Heat Coils LLC for top-notch condenser coils.<br className='hidden xl:block'/> Drop us an email at <a href="mailto:sales@oasisaccoils.com" target='_blank' className='hover:underline'>sales@oasisaccoils.com</a> or ring us up at <a href="tel:+97167313579" target='_blank' className='hover:underline'>+97167313579</a> to get started!</p>

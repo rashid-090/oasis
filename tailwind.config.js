@@ -36,7 +36,9 @@ export default {
       },
       backgroundImage:{
         'oasisbg': "url('./assets/images/media/oasbg.webp')",
-        'ctabg': "url('./assets/images/media/ctabg.webp')",
+        'abtabg': "url('./assets/images/media/bg/aboutusbg1.jpg')",
+        'prdabg': "url('./assets/images/media/bg/ourproductsbg1.jpg')",
+        'ctabg': "url('./assets/images/media/bg/contact usbg1.jpg')",
         'whychosbg': "url('./assets/images/media/whychbg.webp')",
         'carrerbg': "url('./assets/images/media/careers/carrerbg.webp')",
       }
